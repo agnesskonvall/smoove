@@ -1,0 +1,44 @@
+/* no styles or colours given yet. all colours, styles and fonts are placeholders. */
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(202, 202, 202);
+  }
+
+.wrapper{
+    display: grid;
+    grid-template-areas:
+    "hero infograph"
+    "hero infograph";
+
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+
+.hero{
+grid-area: hero;
+    height: 812px;
+    background-color: blue;
+}
+
+.infograph{
+grid-area: infograph;
+background-color: blueviolet;
+height: 412px;
+border-color: black;
+border-style:solid;
+border-width: 1px;
+}
+
+.text{
+    grid-area: text;
+    background-color: cornflowerblue;
+    height: 500px;
+}
+
+
+
+.merch{
+    grid-area: merch;
+    background-color: coral;
+}
