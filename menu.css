@@ -1,0 +1,126 @@
+/* no styles or colours given yet. all colours, styles and fonts are placeholders. */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&display=swap');
+
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(202, 202, 202);
+}
+
+.header a {
+  color:black
+}
+
+.header {
+  background-color: transparent;
+  box-shadow: 5px 5px 5px 0 rgba(0,0,0 .5);
+  z-index: 2;
+  font-weight:200;
+}
+
+.header ul {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  list-style: none;
+  overflow: hidden;
+  font-weight:500;
+  width: 35%;
+  height: 100%
+}
+
+.header ul a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.logo {
+  float:left;
+  display: block;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.header ul a:hover {
+  background-color:black;
+  color: white;
+}
+
+
+.menu {
+  clear: both;
+  object-position: right top;
+  max-height: 0;
+  float: right;
+  text-align: center;
+  transition: max-height .2s ease-out;
+}
+
+.menumargin {
+  padding-top: 10em;
+  }
+
+.menu-icon{
+  padding: 28px 20px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.nav-icon {
+  background: black;
+  display: block;
+  height: 2px;
+  width: 20px;
+  position: relative; 
+}
+
+.nav-icon:before{
+  background: black;
+  content:"";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 5px;
+}
+
+.nav-icon:after{
+  background: black;
+  content:"";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: -5px;
+  }
+
+.header .menu-btn{
+ display: none;
+  }
+
+.header .menu-btn:checked ~ .menu {
+  min-height: 100%;
+  }
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+  background: transparent;
+  } 
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+  transform: rotate(-45deg);
+  top: 0;
+  }
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after{
+ transform: rotate(45deg);
+  top: 0;
+  }
+
