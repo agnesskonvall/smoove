@@ -8,26 +8,33 @@ body{
 .wrapper{
     display: grid;
     grid-template-areas:
-    "hero infograph"
-    "hero infograph";
-
+    "topper"
+    "hero";
     grid-template-rows: auto;
     grid-template-columns: auto;
 }
 
+.topper {
+    grid-area: topper;
+    height: 250px;
+    width: 100vw;
+}
+
+
 .hero{
-grid-area: hero;
+    grid-area: hero;
     height: 812px;
-    background-color: blue;
+    background-color: cornflowerblue;
+    padding-top: 80px;
 }
 
 .infograph{
-grid-area: infograph;
-background-color: blueviolet;
-height: 412px;
-border-color: black;
-border-style:solid;
-border-width: 1px;
+    grid-area: infograph;
+    background-color: blueviolet;
+    height: 412px;
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
 }
 
 .text{

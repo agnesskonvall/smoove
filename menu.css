@@ -1,53 +1,47 @@
 /* no styles or colours given yet. all colours, styles and fonts are placeholders. */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&display=swap');
 
 header a {
-  color:black
+    color:black
 }
 
 header {
-  position: absolute;
-  box-shadow: 5px 5px 5px 0 rgba(0,0,0 .5);
-  z-index: 2;
-  font-weight:200;
-}
-
-header ul {
-  background-color: white;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  top: 0;
-  right: 0;
-  list-style: none;
-  overflow: hidden;
-  font-weight:500;
-  width: 50%;
-  height: 100%
+    position: absolute;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0 .5);
+    z-index: 2;
+    font-weight:200;  
+  } 
+  
+  header ul { 
+    background-color:   white;
+    margin: 0;  
+    padding: 0; 
+    position: fixed;  
+    top: 0; 
+    right: 0; 
+    list-style: none; 
+    overflow: hidden;
+    font-weight:500;
+    width: 50%;
+    height: 100%
 }
 
 header ul a {
-  display: block;
-  padding: 20px;
-  text-decoration: none;
-}
-
-.logo {
-  float:left;
-  display: block;
-  font-size: 2em;
-  padding: 10px 20px;
-  text-decoration: none;
-  position: fixed;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
 }
 
 header ul a:hover {
   background-color:black;
   color: white;
 }
-
-
+.logo{
+  float: left;
+  position: absolute;
+  z-index: 4;
+  padding-top: 8px;
+}
 .menu {
   clear: both;
   object-position: right top;
@@ -58,7 +52,7 @@ header ul a:hover {
 }
 
 .menumargin {
-  padding-top: 10em;
+  padding-top: 9em;
   }
 
 .menu-icon{
@@ -99,7 +93,12 @@ header ul a:hover {
   }
 
 header .menu-btn{
- display: none;
+  display: none; 
+  position: absolute;
+  top: 1.2em;
+  right: 2.5em;
+  height: 18px;
+  width: 20px;
   }
 
 header .menu-btn:checked ~ .menu {
