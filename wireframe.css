@@ -3,6 +3,7 @@ body{
     margin:0;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(202, 202, 202);
+    overflow-x: hidden; 
   }
 
 .wrapper{
