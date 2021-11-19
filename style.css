@@ -24,10 +24,8 @@ p {
   font-family: "Sora", sans-serif;
   font-size: 16px;
 }
-.speed {
-  border-left: 50%;
-  margin-left: 50px;
-}
+
+/* herospecs styling */
 
 @property --num {
   syntax: "<integer>";
@@ -35,7 +33,7 @@ p {
   inherits: false;
 }
 
-.herospecs {
+.hero-specs {
   display: grid;
   align-items: start;
   grid: row;
@@ -45,12 +43,15 @@ p {
 .acceleration {
   height: 5em;
 }
-
+.speed {
+  border-left: 50%;
+  margin-left: 50px;
+}
 .count {
-  animation: counter 3s alternate ease-in-out;
+  animation: counter 5s alternate ease-in-out;
   counter-reset: num var(--num);
   font: 800 40px system-ui;
-  padding: 2rem;
+  padding: 1rem;
   animation-fill-mode: forwards;
   display: inline;
   padding-right: 10%;
@@ -68,3 +69,42 @@ p {
     --num: 220;
   }
 }
+/* end of herospecs styling */
+
+/* footer styling */
+
+footer {
+  background-color: #00171f;
+  padding-left: 8%;
+  line-height: 2.5;
+}
+
+.foot-title {
+  width: 270px;
+  height: 65px;
+}
+.foot-space {
+  display: flex;
+  align-items: row;
+  justify-content: space-between;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 10%;
+  color: white;
+  padding-bottom: 5%;
+}
+.foot-section {
+  padding: 0;
+}
+
+.foot-info {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.prize-info {
+  line-height: 1.5;
+  padding-left: 10%;
+}
+
+/* enf of foot styling  */
