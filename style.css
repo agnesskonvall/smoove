@@ -25,12 +25,66 @@ p {
   font-size: 16px;
 }
 
+.green-font{
+  color: #65DA8C;
+}
+
+  button {
+    font-family: 'Sora';
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #FF7517;
+    color: white;
+    border-radius: none;
+    border: none;
+    padding: 15px 25px;
+
+  }
+
+  button::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: 5px;
+    bottom: 2px;
+    border: 2px solid #00171F;
+    display: block;
+  }
+
+
+
+
 /* herospecs styling */
 
 @property --num {
   syntax: "<integer>";
   initial-value: 0;
   inherits: false;
+}
+
+.hero{
+  background: fixed url(images/heroplaceholder.jpg) no-repeat;
+  background-size: cover;
+  z-index: -2; 
+
+}
+
+.hero-text{
+  margin: 20em 3em 0 0;
+  max-width: 500px;
+  position: absolute;
+  right: 0;
+}
+
+.hero-header
+{
+  margin: 12em 3em 0 0;
+  max-width: 500px;
+  position: absolute;
+  right: 8em;
 }
 
 .hero-specs {
@@ -70,6 +124,8 @@ p {
   }
 }
 /* end of herospecs styling */
+
+
 
 /* footer styling */
 

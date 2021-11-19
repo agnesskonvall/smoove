@@ -2,7 +2,7 @@
 body{
     margin:0;
     font-family: 'Sora';
-    background-color: rgb(202, 202, 202);
+    background-color: transparent;
     overflow-x: hidden; 
   }
 
@@ -25,13 +25,13 @@ body{
 .hero{
     grid-area: hero;
     height: 812px;
-    background-color: cornflowerblue;
+
     padding-top: 80px;
 }
 
 .infograph{
     grid-area: infograph;
-    background-color: blueviolet;
+
     height: 412px;
     border-color: black;
     border-style:solid;
@@ -40,7 +40,7 @@ body{
 
 .text{
     grid-area: text;
-    background-color: cornflowerblue;
+
     height: 500px;
 }
 
@@ -48,5 +48,5 @@ body{
 
 .merch{
     grid-area: merch;
-    background-color: coral;
+
 }
