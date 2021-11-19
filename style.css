@@ -1,28 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;700&display=swap");
 
 @font-face {
-    font-family: 'Radwave Demo';
-    src: url('fonts/RadwaveDemoRegular.woff2') format('woff2'),
-        url('fonts/RadwaveDemoRegular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Radwave Demo";
+  src: url("fonts/RadwaveDemoRegular.woff2") format("woff2"),
+    url("fonts/RadwaveDemoRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-
 h1 {
-    font-family: 'Radwave Demo';
-    font-size: 40px;
+  font-family: "Radwave Demo";
+  font-size: 40px;
 }
 
 h2 {
-    font-family:'Sora', sans-serif;
-    font-weight: 300;
-    font-size: 25px; 
+  font-family: "Sora", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
 }
 
 p {
-    font-family: 'Sora', sans-serif;
-    font-size: 16px;
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+}
+.speed {
+  border-left: 50%;
+  margin-left: 50px;
+}
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.herospecs {
+  display: grid;
+  align-items: start;
+  grid: row;
+  border: solid;
+  border-color: black;
+}
+.acceleration {
+  height: 5em;
+}
+
+.count {
+  animation: counter 3s alternate ease-in-out;
+  counter-reset: num var(--num);
+  font: 800 40px system-ui;
+  padding: 2rem;
+  animation-fill-mode: forwards;
+  display: inline;
+  padding-right: 10%;
+  max-width: 200px;
+}
+.count::after {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 220;
+  }
 }
