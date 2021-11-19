@@ -1,6 +1,3 @@
-/* no styles or colours given yet. all colours, styles and fonts are placeholders. */
-
-
 header a {
     color:black
 }
@@ -15,7 +12,7 @@ header {
   header ul { 
     background-color: #00171F;
     margin: 0;  
-    padding: 0; 
+    padding: 0 0 0 5em; 
     position: fixed;  
     top: 0; 
     right: 0; 
@@ -33,10 +30,9 @@ header ul a {
     color: #FFFFFF;
 }
 
-/*header ul a:hover {
-  background-color:black;
-  color: white;
-}*/
+header ul a:hover {
+  color: #65DA8C;
+}
 
 .logo{
   float: left;
@@ -47,18 +43,24 @@ header ul a {
 .menu {
   clear: both;
   object-position: right top;
-  height: 0;
+  visibility: hidden;
+  transform: translateX(100%);
+  transition-duration: 0.5s;
   float: right;
   text-align: left;
 }
 
-.menu li {
-  margin-left: 55px;
-}
 
-.menumargin {
+
+.menu-margin-top {
   padding-top: 9em;
   }
+
+.menu-margin-bottom {
+    padding-bottom: 9em;
+  }
+  
+
 
 .menu-icon{
   padding: 28px 20px;
@@ -74,7 +76,8 @@ header ul a {
   height: 4px;
   width: 40px;
   position: fixed;
-  right: 25px; 
+  right: 25px;
+  margin: 20px;
 }
 
 .nav-icon:before{
@@ -97,31 +100,57 @@ header ul a {
   top: -13px;
   }
 
-header .menu-btn{
+.menu-btn{
   opacity: 0;
   position: absolute;
   cursor: pointer;
-  top: 8px;
-  right: 20px;
+  top: 30px;
+  right: 39px;
   height: 37px;
   width: 45px;
   z-index: 4;
   }
 
-/*header .menu-btn:checked ~ .menu {
+.menu-btn:checked ~ .menu {
   min-height: 100%;
-  }*/
+  visibility: visible;
+  transform: translateX(10%);
+  transition-duration: 0.5s;
+  }
 
-header .menu-btn:checked ~ .menu-icon .nav-icon {
+.menu-btn:checked ~ .menu-icon .nav-icon {
   background: transparent;
   } 
 
-header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+.menu-btn:checked ~ .menu-icon .nav-icon:before {
   transform: rotate(-45deg);
   top: 0;
   }
 
-header .menu-btn:checked ~ .menu-icon .nav-icon:after{
+.menu-btn:checked ~ .menu-icon .nav-icon:after{
  transform: rotate(45deg);
   top: 0;
+  }
+
+  .hidden-mobile{
+    color: white;
+    display:none;
+    }
+
+  @media screen and (min-width: 780px) {
+
+  .menu-btn:checked ~ .menu {
+      min-height: 100%;
+      visibility: visible;
+      transform: translateX(60%);
+      transition-duration: 0.5s;
+      }
+      .hidden-mobile{
+      display:contents;
+      }
+
+      .no-linebreak{
+        display: inline-block;
+      }
+
   }
