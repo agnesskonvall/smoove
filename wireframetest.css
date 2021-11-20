@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+.wrapper{
+ display: grid;
+ height: 100vh;
+ max-width: 2560px;
+ grid-gap: 10px;
+ grid-template-areas:
+ "a a a a a a a a a a a a"
+ "b b b b c c c c d d d d"
+ "e e e e e e e e e e e e"
+ "f f f f f f f f f f f f"
+ "g g g g g g g g g g g g"
+ "h h h h h h i i i i i i"
+ "j j j j j j k k k k k k"
+ "l l l l l l l m m m m m"
+ "n n n n n n n n n n n n"
+ "o o o o o o o o o o o o"
+ "p p p p p p p p p p p p";
+ text-align: center;
+}
+
+.wrapper2{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    "1 1 1 1 2 2 2 2 3 3 3 3"
+}
+
+.hero{
+  grid-area: a;
+  background-color: cornflowerblue;
+  height: 100vh;
+  max-height: 1440px;
+}
+
+.one{
+    grid-area: 1;
+    background-color:darksalmon;
+}
+
+.two{
+    grid-area: 2;
+    background-color:darkseagreen;
+}
+
+.three{
+    grid-area: 3;
+    background-color:firebrick;
+}
+
+.spec-one {
+    grid-area: b;
+    background-color: burlywood;
+    height: 40vh;
+}
+.spec-two {
+    grid-area: c;
+    background-color:darkgreen;
+}
+.spec-three{
+    grid-area: d;
+    background-color: darkorchid;
+}
+.info-text-one{
+    grid-area: f;
+    background-color: lightseagreen;
+    height: 20vh;
+}
+.enviro-splash{
+    grid-area: g;
+    background-color:rebeccapurple;
+    height: 80vh;
+}
+
+.card-one{
+    grid-area: h;
+    background-color: orange;
+}
+
+.card-two{
+    grid-area: i;
+    background-color: plum;
+    height: 40vh;
+}
+
+.spec-picker-one{
+grid-area: j;
+background-color:powderblue;
+}
+
+.spec-picker-two{
+    grid-area: k;
+    background-color:rebeccapurple;
+    height: 40vh;
+}
+
+.sign-up{
+    grid-area: l;
+    background-color: steelblue;
+    height: 20vh;
+}
+
+.merch-small{
+    grid-area: m;
+    background-color:tomato;
+}
+
+.merch{
+    grid-area: n;
+    background-color: violet;
+    height: 70vh;
+}
+
+.info-text-two{
+    grid-area: o;
+    background-color: orange;
+    height: 20vh;
+}
+
+.foot-space{
+    grid-area: p;
+    background-color:palevioletred;
+    height: 20vh;
+}
