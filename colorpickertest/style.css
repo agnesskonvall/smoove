@@ -1,0 +1,33 @@
+.button-round-red{
+  background-color: red;
+  border-radius: 50%;
+  border-style: none;
+  padding: 15px 15px 15px 15px;
+  margin: 10px 10px 10px 10px;
+  cursor:pointer
+}
+
+.button-round-orange{
+  background-color: orange;
+  border-radius: 50%;
+  border-style: none;
+  padding: 15px 15px 15px 15px;
+  margin: 10px 10px 10px 10px;
+  cursor:pointer
+}
+
+.button-round-pink{
+  background-color: pink;
+  border-radius: 50%;
+  border-style: none;
+  padding: 15px 15px 15px 15px;
+  margin: 10px 10px 10px 10px;
+  cursor:pointer
+}
+
+.bike-color{
+  background: url(orange.png);
+  width: 250px;
+  height: 250px;
+}
+
