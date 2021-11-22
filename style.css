@@ -42,6 +42,7 @@ a {
   border: 3px solid #00171f;
   top: -10px;
   left: -10px;
+  cursor: pointer;
 }
 
 .button-frame .orange-button {
@@ -54,6 +55,7 @@ a {
   background-color: #ff7517;
   margin: 7px;
   border: none;
+  cursor: pointer;
 }
 
 /* herospecs styling */
@@ -191,3 +193,25 @@ footer {
   border: none;
 }
 /* enf of foot styling  */
+
+
+ @media screen and (max-width: 768px) {
+  .hero-header {
+    margin: 10em 0 0 0;
+    max-width: 500px;
+    position: absolute;
+    right: 5em;
+  }
+
+  .hero-text {
+    margin: 17em 3em 0 0;
+  }
+
+  .hero .button-frame {
+  margin-left: 20px;
+  }
+  
+  .hero .button-frame .orange-button {
+   margin-left: 20px;
+  }
+ }
