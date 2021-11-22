@@ -25,39 +25,36 @@ p {
   font-size: 16px;
 }
 
-.green-font{
-  color: #65DA8C;
+.green-font {
+  color: #65da8c;
 }
-a{
+a {
   font-family: "Sora", sans-serif;
   font-size: 16px;
   color: white;
   text-decoration: none;
 }
 
-
-.button-frame{
+.button-frame {
   width: 135px;
   height: 40px;
   position: relative;
-  border: 3px solid #00171F;
+  border: 3px solid #00171f;
   top: -10px;
   left: -10px;
-  
 }
 
-.button-frame .orange-button{
-  font-family: 'Sora';
+.button-frame .orange-button {
+  font-family: "Sora";
   font-weight: 600;
   color: white;
   height: 40px;
   width: 135px;
   position: absolute;
-  background-color: #FF7517;
+  background-color: #ff7517;
   margin: 7px;
   border: none;
 }
-
 
 /* herospecs styling */
 
@@ -67,23 +64,21 @@ a{
   inherits: false;
 }
 
-.hero{
+.hero {
   background: url(images/heroplaceholder.jpg) no-repeat;
   background-size: cover;
   z-index: 0;
   display: grid;
-
 }
 
-.hero-text{
+.hero-text {
   margin: 20em 3em 0 0;
   max-width: 500px;
   position: absolute;
   right: 0;
 }
 
-.hero-header
-{
+.hero-header {
   margin: 12em 3em 0 0;
   max-width: 500px;
   position: absolute;
@@ -128,8 +123,6 @@ a{
 }
 /* end of herospecs styling */
 
-
-
 /* footer styling */
 
 footer {
@@ -141,6 +134,7 @@ footer {
 .foot-title {
   width: 270px;
   height: 65px;
+  margin: 0;
 }
 .foot-space {
   display: flex;
@@ -159,11 +153,34 @@ footer {
 .foot-info {
   font-size: 32px;
   font-weight: 500;
+  margin-top: 0;
 }
 
 .prize-info {
   line-height: 1.5;
   padding-left: 10%;
+  margin: 0;
+  width: 25vh;
+}
+.button-frame-foot {
+  width: 135px;
+  height: 40px;
+  position: relative;
+  border: 3px solid #ffff;
+  top: -10px;
+  left: -10px;
+  border-left: 20%;
 }
 
+.button-frame-foot .orange-button {
+  font-family: "Sora";
+  font-weight: 600;
+  color: white;
+  height: 40px;
+  width: 135px;
+  position: absolute;
+  background-color: #ff7517;
+  margin: 7px;
+  border: none;
+}
 /* enf of foot styling  */
