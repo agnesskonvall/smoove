@@ -86,28 +86,35 @@ a {
 }
 
 .hero-specs {
-  display: grid;
-  align-items: start;
-  grid: row;
+  display: flex;
+  align-items: center;
+  display: row;
+}
+.spec-container {
+  display: flex;
+  align-self: auto;
+  display: table-row;
   border: solid;
   border-color: black;
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
 }
 .acceleration {
   height: 5em;
+  border-color: black;
 }
 .speed {
-  border-left: 50%;
-  margin-left: 50px;
+  border-color: black;
 }
 .count {
   animation: counter 5s alternate ease-in-out;
   counter-reset: num var(--num);
   font: 800 40px system-ui;
-  padding: 1rem;
   animation-fill-mode: forwards;
   display: inline;
-  padding-right: 10%;
   max-width: 200px;
+  border-color: black;
 }
 .count::after {
   content: counter(num);
