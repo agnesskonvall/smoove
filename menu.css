@@ -102,15 +102,12 @@ header ul a:hover {
   }
 
 .menu-btn{
-  opacity: 0;
-  position: absolute;
-  cursor: pointer;
-  top: 30px;
-  right: 39px;
-  height: 37px;
-  width: 45px;
-  z-index: 4;
+  visibility: hidden;
   }
+
+.menu-button-padding{
+    padding: 10px 10px 15px 30px;
+}
 
 .menu-btn:checked ~ .menu {
   min-height: 100%;
