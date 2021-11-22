@@ -38,7 +38,7 @@ header ul a:hover {
   float: left;
   position: absolute;
   z-index: 4;
-  padding-top: 8px;
+  padding-top: 25px;
   padding-left: 8px;
 }
 .menu {
@@ -72,7 +72,7 @@ header ul a:hover {
 }
 
 .nav-icon {
-  background: #65DA8C;
+  background: #00171F;
   display: block;
   height: 4px;
   width: 40px;
@@ -82,7 +82,7 @@ header ul a:hover {
 }
 
 .nav-icon:before{
-  background: #65DA8C;
+  background: #00171F;
   content:"";
   display: block;
   height: 100%;
@@ -92,7 +92,7 @@ header ul a:hover {
 }
 
 .nav-icon:after{
-  background: #65DA8C;
+  background: #00171F;
   content:"";
   display: block;
   height: 100%;
@@ -107,6 +107,7 @@ header ul a:hover {
 
 .menu-button-padding{
     padding: 10px 10px 15px 30px;
+    cursor: pointer;
 }
 
 .menu-btn:checked ~ .menu {
@@ -123,15 +124,16 @@ header ul a:hover {
 .menu-btn:checked ~ .menu-icon .nav-icon:before {
   transform: rotate(-45deg);
   top: 0;
+  background:#65DA8C;
   }
 
 .menu-btn:checked ~ .menu-icon .nav-icon:after{
  transform: rotate(45deg);
   top: 0;
+  background: #65DA8C;
   }
 
   .hidden-mobile{
-    color: white;
     display:none;
     }
 
@@ -144,6 +146,7 @@ header ul a:hover {
       transition-duration: 0.5s;
       }
       .hidden-mobile{
+      color: white;
       display:contents;
       }
 
