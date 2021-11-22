@@ -169,7 +169,7 @@ footer {
   border: 3px solid #ffff;
   top: -10px;
   left: -10px;
-  border-left: 20%;
+  margin-left: 40px;
 }
 
 .button-frame-foot .orange-button {
