@@ -242,7 +242,7 @@ footer {
 }
 
 /* end of bouncy arrows */
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 1023px) {
   .hero-header {
     grid-column:5/43;
     grid-row: 47/70;
