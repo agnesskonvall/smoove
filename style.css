@@ -91,7 +91,13 @@ a {
   display: flex;
   align-items: center;
   display: row;
+  grid-column: 1/10;
+  height: 412px;
+  border-color: black;
+  border-style:solid;
+  border-width: 1px;
 }
+
 .spec-container {
   display: flex;
   align-self: auto;
