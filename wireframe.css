@@ -8,6 +8,9 @@ body{
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    min-height: 0;
+    min-width: 0;
+    grid-template-rows: auto minmax(400px,1fr);
     grid-template-areas:
     "a a a a a a a a a a a a"
     "b b b b b b b b b b b b"
@@ -59,7 +62,6 @@ body{
 .enviro-splash{
     grid-area: g;
     background-color:rebeccapurple;
-    height: 80vh;
 }
 
 .card-one{
@@ -70,7 +72,6 @@ body{
 .card-two{
     grid-area: i;
     background-color: plum;
-    height: 40vh;
 }
 
 .spec-picker-one{
@@ -111,7 +112,7 @@ footer{
     grid-area: p;
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width: 1024px){
 .wrapper{
     display: grid;
     height: 100vh;

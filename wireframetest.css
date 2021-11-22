@@ -7,9 +7,10 @@ body{
 .wrapper{
     display: grid;
     height: 100vh;
-    max-width: 2560px;
+    width: 100wh;
     grid-gap: 10px;
     grid-template-areas:
+    "1 1 1 1 1 1 1 1 1 1 1 1"
     "a a a a a a a a a a a a"
     "b b b b b b b b b b b b"
     "c c c c c c c c c c c c"
@@ -28,7 +29,9 @@ body{
     "p p p p p p p p p p p p"
 }
 
-
+header{
+    grid-area: 1;
+}
 .hero{
   grid-area: a;
   background-color: cornflowerblue;
@@ -56,8 +59,7 @@ body{
 }
 .enviro-splash{
     grid-area: g;
-    background-color:rebeccapurple;
-    height: 80vh;
+    display: grid;
 }
 
 .card-one{

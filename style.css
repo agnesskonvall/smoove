@@ -68,9 +68,8 @@ a {
 
 .hero {
   background: url(images/heroplaceholder.jpg) no-repeat;
-  background-size: contain;
+  background-size: 100vw;
   z-index: 0;
-  display: grid;
 }
 
 .hero-text {
@@ -272,3 +271,9 @@ footer {
   }
 
  }
+
+ /* video */
+video{
+width: 100vw;
+}
+/* end video */
