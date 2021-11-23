@@ -3,10 +3,10 @@ header a {
 }
 
 header {
-    position: absolute;
-    box-shadow: 5px 5px 5px 0 rgba(0,0,0 .5);
     z-index: 2;
-    font-weight:200;  
+    font-weight:200;
+    grid-column:84/86;
+    grid-row: 1/5;
   } 
   
   header ul { 
@@ -60,7 +60,6 @@ header ul a:hover {
 .menu-margin-bottom {
     padding-bottom: 9em;
   }
-  
 
 
 .menu-icon{
@@ -77,8 +76,8 @@ header ul a:hover {
   height: 4px;
   width: 40px;
   position: fixed;
-  right: 25px;
   margin: 20px;
+
 }
 
 .nav-icon:before{
@@ -101,33 +100,33 @@ header ul a:hover {
   top: -13px;
   }
 
-.menu-btn{
+.menu-button{
   visibility: hidden;
   }
 
 .menu-button-padding{
-    padding: 10px 10px 15px 30px;
+    padding: 20px 20px 20px 30px;
     cursor: pointer;
 }
 
-.menu-btn:checked ~ .menu {
+.menu-button:checked ~ .menu {
   min-height: 100%;
   visibility: visible;
   transform: translateX(10%);
   transition-duration: 0.5s;
   }
 
-.menu-btn:checked ~ .menu-icon .nav-icon {
+.menu-button:checked ~ .menu-icon .nav-icon {
   background: transparent;
   } 
 
-.menu-btn:checked ~ .menu-icon .nav-icon:before {
+.menu-button:checked ~ .menu-icon .nav-icon:before {
   transform: rotate(-45deg);
   top: 0;
   background:#65DA8C;
   }
 
-.menu-btn:checked ~ .menu-icon .nav-icon:after{
+.menu-button:checked ~ .menu-icon .nav-icon:after{
  transform: rotate(45deg);
   top: 0;
   background: #65DA8C;
@@ -139,7 +138,7 @@ header ul a:hover {
 
   @media screen and (min-width: 780px) {
 
-  .menu-btn:checked ~ .menu {
+  .menu-button:checked ~ .menu {
       min-height: 100%;
       visibility: visible;
       transform: translateX(60%);

@@ -1,16 +1,12 @@
 body{
     margin: 0;
     font-family: 'Sora';
-    background-color: transparent;
     overflow-x: hidden; 
 }
 .wrapper{
     display: grid;
-    height: 100vh;
-    grid-gap: 10px;
     min-height: 0;
     min-width: 0;
-    grid-template-rows: auto minmax(400px,1fr);
     grid-template-areas:
     "a a a a a a a a a a a a"
     "b b b b b b b b b b b b"
@@ -31,6 +27,7 @@ body{
 }
 
 
+
 .hero{
   grid-area: a;
   background-color: cornflowerblue;
@@ -45,6 +42,7 @@ body{
     grid-area: b;
     background-color: burlywood;
     height: 40vh;
+
 }
 .spec-two {
     grid-area: c;
@@ -82,7 +80,6 @@ background-color:powderblue;
 .spec-picker-two{
     grid-area: k;
     background-color:rebeccapurple;
-    height: 40vh;
 }
 
 .sign-up{
@@ -112,12 +109,11 @@ footer{
     grid-area: p;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 769px){
 .wrapper{
     display: grid;
-    height: 100vh;
-    max-width: 2560px;
-    grid-gap: 10px;
+    justify-content: center;
+    grid-auto-columns: minmax(auto, 120px);
     grid-template-areas:
     "a a a a a a a a a a a a"
     "b b b b c c c c d d d d"
@@ -131,4 +127,6 @@ footer{
     "o o o o o o o o o o o o"
     "p p p p p p p p p p p p";
    }
+
+
 }
