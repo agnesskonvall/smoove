@@ -278,3 +278,60 @@ video{
   width: 100%
 }
 /* end video */
+
+/* bike exterior color picker */
+
+.button-exterior-black{
+  background-color: black;
+  border-style: none;
+  padding: 15px 15px 15px 15px;
+  margin: 10px 10px 10px 10px;
+  cursor:pointer
+}
+
+.button-exterior-white{
+  background-color: white;
+  border-style: none;
+  padding: 15px 15px 15px 15px;
+  margin: 10px 10px 10px 10px;
+  cursor:pointer
+}
+
+.button-exterior-orange{
+  background-color: orange;
+  border-style: none;
+  padding: 15px 15px 15px 15px;
+  margin: 10px 10px 10px 10px;
+  cursor:pointer
+}
+
+.bike-color{
+position: relative;
+display: grid;
+grid-template-columns: repeat(8, 1fr);
+grid-template-rows: repeat(11, 1fr);
+max-width: 720px;
+max-height: 720px;
+}
+
+.bike-color .bike-color-picker{
+  grid-column: 4/7;
+  grid-row: 11/11;
+  z-index: 4;
+  min-width: 200px;
+}
+
+.bike-color img{
+  grid-column: 1/12;
+  grid-row: 1/12;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .bike-color .bike-color-picker{
+    grid-row: 9/10;
+  }
+}
+
+/*end bike exterior color picker /*
