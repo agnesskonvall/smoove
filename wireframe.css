@@ -51,8 +51,8 @@ body {
 }
 .info-text-one {
   grid-area: f;
-  background-color: lightseagreen;
-  height: 20vh;
+  background-color: #00171f;
+  height: 30vh;
 }
 .enviro-splash {
   grid-area: g;

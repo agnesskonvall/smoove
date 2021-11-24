@@ -88,36 +88,45 @@ a {
   background-color: white;
   width: 100%;
   height: 100%;
-  grid-column: 15/75;
-  grid-row: 70/80;
+  grid-column: 1/90;
+  grid-row: 70/90;
 }
 
 .spec-container {
-  border: solid;
-  justify-items: center;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  border-color: black;
   flex: 0 100%;
   height: 100px;
   margin-bottom: 2%; /* (100-32*3)/2 */
 }
+
+.specs-heading {
+  font-family: "Radwave Demo";
+  font-size: 32px;
+  top: 20px;
+  left: 10px;
+  display: inline;
+  position: relative;
+}
+
+.spec-info {
+  top: 20px;
+  left: 10px;
+  display: inline;
+  position: relative;
+}
 .acceleration {
   height: 5em;
-  border-color: black;
 }
 .speed {
-  border-color: black;
+  height: 5em;
 }
 .count {
+  align-content: center;
+  justify-content: center;
   animation: counter 5s alternate ease-in-out;
   counter-reset: num var(--num);
-  font: 800 40px system-ui;
   animation-fill-mode: forwards;
   display: inline;
   max-width: 200px;
-  border-color: black;
 }
 .count::after {
   content: counter(num);
@@ -181,6 +190,27 @@ a {
   right: 15px;
   display: inline;
   font-size: small;
+}
+.driving-info {
+  font-family: "Radwave Demo";
+  color: white;
+  font-weight: 800;
+  font-size: 36px;
+  position: absolute;
+  display: inline;
+  width: 40%;
+  left: 35px;
+}
+.info-text {
+  color: white;
+  position: absolute;
+  display: inline;
+  width: 40%;
+  left: 700px;
+  padding: 20px;
+}
+.green-text {
+  color: #65da8c;
 }
 /* footer styling */
 
