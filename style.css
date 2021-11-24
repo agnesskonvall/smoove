@@ -164,7 +164,8 @@ a {
 }
 
 .one {
-  width: 300px !important;
+  width: 280px !important;
+  right: 45px !important;
 }
 
 .source {
