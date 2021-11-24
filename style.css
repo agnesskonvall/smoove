@@ -78,14 +78,14 @@ a {
 }
 
 .hero-header {
-  grid-column:65/89;
+  grid-column: 65/89;
   grid-row: 30/35;
   letter-spacing: 3px;
 }
 
 .hero-specs {
   display: flex;
-  background-color:white;
+  background-color: white;
   width: 100%;
   height: 100%;
   grid-column: 15/75;
@@ -94,6 +94,10 @@ a {
 
 .spec-container {
   border: solid;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
   border-color: black;
   flex: 0 100%;
   height: 100px;
@@ -129,6 +133,54 @@ a {
 }
 /* end of herospecs styling */
 
+.card-one {
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+.card-two {
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+
+.quote-mark {
+  position: absolute;
+  top: 5px;
+  left: 350px;
+  display: inline;
+  color: #65da8c;
+  font-size: 100px;
+  margin: 0;
+}
+.quote {
+  font-weight: 800;
+  font-size: x-large;
+  position: absolute;
+  bottom: 90px;
+  right: 60px;
+  display: inline;
+  width: 240px;
+}
+
+.one {
+  width: 300px !important;
+}
+
+.source {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+  display: inline;
+}
+
+.position {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+  display: inline;
+  font-size: small;
+}
 /* footer styling */
 
 footer {
@@ -193,7 +245,7 @@ footer {
 
 /* bouncy arrows */
 
-.arrow-down{
+.arrow-down {
   height: 50px;
   width: 30px;
   grid-column: 85/90;
@@ -210,54 +262,94 @@ footer {
 }
 
 @-webkit-keyframes bounce {
-  0% { top: 0; }
-  50% { top: -0.2em; }
-  70% { top: -0.3em; }
-  100% { top: 0; }
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
 }
 @-moz-keyframes bounce {
-  0% { top: 0; }
-  50% { top: -0.2em; }
-  70% { top: -0.3em; }
-  100% { top: 0; }
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
 }
 @-o-keyframes bounce {
-  0% { top: 0; }
-  50% { top: -0.2em; }
-  70% { top: -0.3em; }
-  100% { top: 0; }
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
 }
 @-ms-keyframes bounce {
-  0% { top: 0; }
-  50% { top: -0.2em; }
-  70% { top: -0.3em; }
-  100% { top: 0; }
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
 }
 @keyframes bounce {
-  0% { top: 0; }
-  50% { top: -0.2em; }
-  70% { top: -0.3em; }
-  100% { top: 0; }
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
 }
 
 /* end of bouncy arrows */
- @media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .hero-header {
-    grid-column:5/43;
+    grid-column: 5/43;
     grid-row: 47/70;
   }
 
   .hero-text {
-    grid-column:5/43;
+    grid-column: 5/43;
     grid-row: 60/70;
   }
 
   .hero .button-frame {
-  margin-left: 20px;
+    margin-left: 20px;
   }
-  
+
   .hero .button-frame .orange-button {
-   margin-left: 20px;
+    margin-left: 20px;
   }
 
   .hero-specs {
@@ -265,16 +357,15 @@ footer {
     grid-row: 39/45;
   }
 
-  .arrow-down{
+  .arrow-down {
     grid-column: 45/52;
     grid-row: 80/90;
   }
+}
 
- }
-
- /* video */
-video{
+/* video */
+video {
   height: 100%;
-  width: 100%
+  width: 100%;
 }
 /* end video */

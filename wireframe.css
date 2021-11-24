@@ -1,13 +1,13 @@
-body{
-    margin: 0;
-    font-family: 'Sora';
-    overflow-x: hidden; 
+body {
+  margin: 0;
+  font-family: "Sora";
+  overflow-x: hidden;
 }
-.wrapper{
-    display: grid;
-    min-height: 0;
-    min-width: 0;
-    grid-template-areas:
+.wrapper {
+  display: grid;
+  min-height: 0;
+  min-width: 0;
+  grid-template-areas:
     "a a a a a a a a a a a a"
     "b b b b b b b b b b b b"
     "c c c c c c c c c c c c"
@@ -26,9 +26,7 @@ body{
     "p p p p p p p p p p p p";
 }
 
-
-
-.hero{
+.hero {
   grid-area: a;
   background-color: cornflowerblue;
   height: 100vh;
@@ -39,94 +37,91 @@ body{
 }
 
 .spec-one {
-    grid-area: b;
-    background-color: burlywood;
-    height: 40vh;
-
+  grid-area: b;
+  background-color: burlywood;
+  height: 40vh;
 }
 .spec-two {
-    grid-area: c;
-    background-color:darkgreen;
+  grid-area: c;
+  background-color: darkgreen;
 }
-.spec-three{
-    grid-area: d;
-    background-color: darkorchid;
+.spec-three {
+  grid-area: d;
+  background-color: darkorchid;
 }
-.info-text-one{
-    grid-area: f;
-    background-color: lightseagreen;
-    height: 20vh;
+.info-text-one {
+  grid-area: f;
+  background-color: lightseagreen;
+  height: 20vh;
 }
-.enviro-splash{
-    grid-area: g;
-    background-color:rebeccapurple;
-}
-
-.card-one{
-    grid-area: h;
-    background-color: orange;
+.enviro-splash {
+  grid-area: g;
+  background-color: rebeccapurple;
 }
 
-.card-two{
-    grid-area: i;
-    background-color: plum;
+.card-one {
+  grid-area: h;
+  background-color: white;
 }
 
-.spec-picker-one{
-grid-area: j;
-background-color:powderblue;
+.card-two {
+  grid-area: i;
+  background-color: plum;
 }
 
-.spec-picker-two{
-    grid-area: k;
-    background-color:rebeccapurple;
+.spec-picker-one {
+  grid-area: j;
+  background-color: powderblue;
 }
 
-.sign-up{
-    grid-area: l;
-    background-color: steelblue;
-    height: 20vh;
+.spec-picker-two {
+  grid-area: k;
+  background-color: rebeccapurple;
 }
 
-.merch-small{
-    grid-area: m;
-    background-color:tomato;
+.sign-up {
+  grid-area: l;
+  background-color: steelblue;
+  height: 20vh;
 }
 
-.merch{
-    grid-area: n;
-    background-color: violet;
-    height: 70vh;
+.merch-small {
+  grid-area: m;
+  background-color: tomato;
 }
 
-.info-text-two{
-    grid-area: o;
-    background-color: orange;
-    height: 20vh;
+.merch {
+  grid-area: n;
+  background-color: violet;
+  height: 70vh;
 }
 
-footer{
-    grid-area: p;
+.info-text-two {
+  grid-area: o;
+  background-color: orange;
+  height: 20vh;
 }
 
-@media screen and (min-width: 769px){
-.wrapper{
+footer {
+  grid-area: p;
+}
+
+@media screen and (min-width: 769px) {
+  .wrapper {
     display: grid;
     justify-content: center;
     grid-auto-columns: minmax(auto, 120px);
     grid-template-areas:
-    "a a a a a a a a a a a a"
-    "b b b b c c c c d d d d"
-    "e e e e e e e e e e e e"
-    "f f f f f f f f f f f f"
-    "g g g g g g g g g g g g"
-    "h h h h h h i i i i i i"
-    "j j j j j j k k k k k k"
-    "l l l l l l l m m m m m"
-    "n n n n n n n n n n n n"
-    "o o o o o o o o o o o o"
-    "p p p p p p p p p p p p";
-   }
-
-
+      "a a a a a a a a a a a a"
+      "b b b b c c c c d d d d"
+      "e e e e e e e e e e e e"
+      "f f f f f f f f f f f f"
+      "g g g g g g g g g g g g"
+      "h h h h h h i i i i i i"
+      "j j j j j j k k k k k k"
+      "l l l l l l l m m m m m"
+      "n n n n n n n n n n n n"
+      "o o o o o o o o o o o o"
+      "p p p p p p p p p p p p";
+  }
 }
