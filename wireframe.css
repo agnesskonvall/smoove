@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: "Sora";
   overflow-x: hidden;
+  background-color: #F8F7F4;
 }
 .wrapper {
   display: grid;
@@ -29,7 +30,7 @@ body {
 .hero {
   grid-area: a;
   height: 100vh;
-  max-height: 1440px;
+  max-height: 1024px;
   display: grid;
   grid-template-columns: repeat(89, 1fr);
   grid-template-rows: repeat(89, 1fr);
