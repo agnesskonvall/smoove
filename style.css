@@ -27,6 +27,7 @@ h2 {
 p {
   font-family: "Sora", sans-serif;
   font-size: 16px;
+  font-weight: 400;
 }
 
 .green-font {
@@ -85,16 +86,17 @@ a {
   z-index: 0;
 }
 
-.hero-text {
-  grid-column: 68/89;
-  grid-row: 41/60;
-}
-
 .hero-header {
   grid-column: 60/89;
   grid-row: 31/36;
   letter-spacing: 3px;
 }
+
+.hero-text {
+  grid-column: 68/89;
+  grid-row: 41/60;
+}
+
 
 .hero-specs {
   display: flex;
@@ -117,23 +119,29 @@ a {
 
 .specs-heading {
   font-family: "Radwave Demo";
-  font-size: 32px;
+  font-size: 38px;
   top: 20px;
   left: 10px;
-  display: inline;
-  position: relative;
+  position: absolute;
+  padding-left: 18px;
 }
 
 .spec-info {
-  top: 20px;
+  top: 2.8em;
   left: 10px;
-  display: inline;
-  position: relative;
+  font-size: 25px;
+  position: absolute;
+  padding-left: 18px;
 }
 .acceleration {
   height: 5em;
 }
 .speed {
+  height: 5em;
+  font-weight: 300;
+  font-size: 48px;
+}
+.seconds {
   height: 5em;
   font-weight: 300;
   font-size: 48px;
@@ -162,6 +170,22 @@ a {
   }
 }
 /* end of hero styling */
+
+
+.spec-one img {
+  height: 100%;
+  width: 100%;
+}
+
+.spec-two img {
+  height: 100%;
+  width: 100%;
+}
+
+.spec-three img {
+  height: 100%;
+  width: 100%;
+}
 
 .card-one {
   width: 100%;
@@ -307,7 +331,6 @@ footer {
 
 /* bouncy arrows */
 
-
 .iconify {
   z-index: 9;
   height: 50px;
@@ -399,49 +422,12 @@ footer {
 }
 
 /* end of bouncy arrows */
-@media screen and (max-width: 1023px) {
-
-  .hero {
-    background: url(images/hero-mobile.png) no-repeat;
-    background-size: 100vw;
-    z-index: 0;
-  }
-
-  .hero-header {
-    grid-column: 5/43;
-    grid-row: 47/70;
-  }
-
-  .hero-text {
-    grid-column: 5/43;
-    grid-row: 60/70;
-  }
-
-  .hero .button-frame {
-    margin-left: 20px;
-  }
-
-  .hero .button-frame .orange-button {
-    margin-left: 20px;
-  }
-
-  .hero-specs {
-    grid-column: 5/49;
-    grid-row: 39/45;
-  }
-
-  .arrow-down {
-    grid-column: 45/52;
-    grid-row: 80/90;
-  }
-}
 
 /* video */
 video {
   height: 100%;
   width: 100%;
   position: relative;
-  z-index: -1;
 }
 /* end video */
 

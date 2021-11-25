@@ -1,0 +1,55 @@
+@media screen and (max-width: 900px) {
+
+    .hero {
+      background: url(images/hero-mobile.png) no-repeat;
+      background-size: 100vw;
+      z-index: 0;
+    }
+  
+    .hero-header {
+      grid-column: 6/43;
+      grid-row: 60/70;
+    }
+  
+    .hero-text {
+      grid-column: 6/43;
+      grid-row: 70/89;
+    }
+  
+    .hero .button-frame {
+      margin-left: 20px;
+    }
+  
+    .hero .button-frame .orange-button {
+      margin-left: 20px;
+    }
+  
+    .hero-specs {
+      grid-column: 4/55;
+      grid-row: 50/65;
+    }
+  
+    .iconify {
+      grid-column: 66/86;
+      grid-row: 85/90;
+    }
+.speed{
+    font-size: 1em;
+    line-height: 100px;
+}
+.count {
+    font-size: 24px;
+}
+.seconds{
+    font-size: 24px;
+    line-height: 2em;  
+}
+
+.info-text-two{
+    word-wrap: break-word;
+}
+
+.foot-space{
+    align-items: column;
+}
+  }
