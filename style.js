@@ -11,34 +11,83 @@ const orangeInt = document.querySelector('.button-interior-orange');
 
 
 blackExt.addEventListener('click', () => {
+
     bikeExtColor.alt = "Photo of the Smoove bike exterior in black";
-    bikeExtColor.src = "images/exterior_black.png";
+
+    if (window.innerWidth > 768) {
+        bikeExtColor.src = "images/exterior_black.png";
+     }
+     else {
+        bikeExtColor.src = "images/exterior_black_mobile.png";
+     }
 });
 
+
 whiteExt.addEventListener('click', () => {
+
     bikeExtColor.alt = "Photo of the Smoove bike exterior in white";
-    bikeExtColor.src = "images/exterior_white.png";
+
+    if (window.innerWidth > 768) {
+        bikeExtColor.src = "images/exterior_white.png";
+    }
+    else {
+        bikeExtColor.src = "images/exterior_white_mobile.png";
+    }
+
 });
 
 orangeExt.addEventListener('click', () => {
+
     bikeExtColor.alt = "Photo of the Smoove bike exterior in orange";
-    bikeExtColor.src = "images/exterior_orange.png";
+
+    if (window.innerWidth > 768) {
+        bikeExtColor.src = "images/exterior_orange.png";
+    }
+    else {
+        bikeExtColor.src = "images/exterior_orange_mobile.png";
+    } 
 });
 
 
 
 blackInt.addEventListener('click', () => {
+
     bikeIntColor.alt = "Photo of the Smoove bike interior in black";
-    bikeIntColor.src = "images/interior_black.png";
+
+    if (window.innerWidth > 768) {
+        bikeIntColor.src = "images/interior_black.png";
+    }
+    else {
+        bikeIntColor.src = "images/interior_black_mobile.png";
+
+    }
 });
 
 
 whiteInt.addEventListener('click', () => {
+
     bikeIntColor.alt = "Photo of the Smoove bike interior in white";
-    bikeIntColor.src = "images/interior_white.png";
+
+    if (window.innerWidth > 768) {
+        bikeIntColor.src = "images/interior_white.png";
+
+    }
+    else {
+        bikeIntColor.src = "images/interior_white_mobile.png";
+
+    }
 });
 
 orangeInt.addEventListener('click', () => {
+
     bikeIntColor.alt = "Photo of the Smoove bike interior in orange";
-    bikeIntColor.src = "images/interior_orange.png";
+
+    if (window.innerWidth > 768) {
+        bikeIntColor.src = "images/interior_orange.png";
+    }
+    else {
+        bikeIntColor.src = "images/interior_orange_mobile.png";
+    }
 });
+
+

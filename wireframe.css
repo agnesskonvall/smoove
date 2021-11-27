@@ -41,19 +41,17 @@ body {
   grid-area: b;
   position: relative;
   z-index: -1;
-  text-align: center;
+  max-width: 768px;
 }
 .spec-two {
   grid-area: c;
   position: relative;
   z-index: -1;
-  text-align: center;
 }
 .spec-three {
   grid-area: d;
   position: relative;
   z-index: -1;
-  text-align: center;
 }
 .info-text-one {
   grid-area: f;

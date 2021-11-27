@@ -5,9 +5,9 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="mobile.css">
       <link rel="stylesheet" href="menu.css">
       <link rel="stylesheet" href="wireframe.css">
+      <link rel="stylesheet" href="mobile.css">
       <title>smoove</title>
    </head>
    <body>
@@ -80,19 +80,45 @@
             </div>
          </div>
          <div class="spec-one">
-            <img src="images/charging-box.png">
+
+            <picture>
+               <source
+                 media="(min-width: 800px)"
+                 srcset="images/charging-box.png">
+               <source
+                 media="(max-width: 768px)"
+                 srcset="images/charging-box-mobile.png">
+               <img src="images/charging-box-mobile.png" alt="A photo of a charging box used to charge the Smoove motorbike" />
+             </picture>
+
             <p class="specs-heading">Material</p>
             <br>
             <p class="spec-info">Cutting edge techniques</p>
          </div>
          <div class="spec-two">
-            <img src="images/charging-box.png">
+            <picture>
+               <source
+                 media="(min-width: 800px)"
+                 srcset="images/charging-box.png">
+               <source
+                 media="(max-width: 768px)"
+                 srcset="images/charging-box-mobile.png">
+               <img src="images/charging-box-mobile.png" alt="A photo of a charging box used to charge the Smoove motorbike" />
+             </picture>
             <p class="specs-heading">Power</p>
             <br>
             <p class="spec-info">Impressive electric strength</p>
          </div>
          <div class="spec-three">
-            <img src="images/charging-box.png">
+            <picture>
+               <source
+                 media="(min-width: 800px)"
+                 srcset="images/charging-box.png">
+               <source
+                 media="(max-width: 768px)"
+                 srcset="images/charging-box-mobile.png">
+               <img src="images/charging-box-mobile.png" alt="A photo of a charging box used to charge the Smoove motorbike" />
+             </picture>
             <p class="specs-heading">Tech</p>
             <br>
             <p class="spec-info">Innovating driving experience</p>
@@ -107,20 +133,36 @@
             </video>
          </div>
          <div class="card-one">
-            <img src="/images/Testimonial 1.png" alt="Portrait of a woman smiling">
+            <picture>
+               <source
+                 media="(min-width: 800px)"
+                 srcset="/images/testimonial_1.png">
+               <source
+                 media="(max-width: 768px)"
+                 srcset="/images/testimonial_1_mobile.png">
+               <img src="/images/testimonial_1_mobile.png" alt="Portrait of a womanman smiling" />
+             </picture>
             <p class="quote-mark">“</p>
             <p class="quote one">Smoove is a engineered masterpiece that will change the world of technology.”</p>
             <p class="source">Sarah Marker</p>
             <p class="position">Chief of engineer, Geely</p>
          </div>
          <div class="card-two">
-            <img src="/images/Testimonial 2.png" alt="Portrait of a man smiling">
+            <picture>
+               <source
+                 media="(min-width: 800px)"
+                 srcset="/images/testimonial_2.png">
+               <source
+                 media="(max-width: 768px)"
+                 srcset="/images/testimonial_2_mobile.png">
+               <img src="/images/testimonial_2_mobile.png" alt="Portrait of a man smiling" />
+             </picture>
             <p class="quote-mark">“</p>
             <p class="quote">Working with Smoove has taught me that nothing is impossible.”</p>
             <p class="source">Dan Sing</p>
             <p class="position">Head of technology, Geely</p>
          </div>
-         <div class="info-text-two"><span class="white-font">Smoove put <span class="green-font">your experience</span> first and we promise it will be a smooth ride.</span></div>
+         <div class="info-text-two"><div class="text-two"><span class="white-font">Smoove put <span class="green-font">your experience</span> first and we promise it will be a smooth ride.</span></div></div>
          <div class="spec-picker-one">
             <div class="bike-color">
                <img id="bike-exterior-img" src="images/exterior_black.png" alt="Photo of the Smoove bike exterior in black">
@@ -136,7 +178,7 @@
          <div class="sign-up">sign-up</div>
          <div class="merch-small">merch-small</div>
          <div class="merch">merch</div>
-         <div class="info-text-three">info-text-three</div><!-- 
+         <div class="info-text-three">info-text-three</div>
          <footer>
           <div class="foot-space">
              <div class="foot-section">
@@ -175,7 +217,7 @@
                 </p>
              </div>
           </div>
-       </footer>-->
+       </footer>
       </div>
     
       </div>
