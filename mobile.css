@@ -193,4 +193,13 @@ height: 550px;
 .enviro-splash{
   max-width: 100vw;
 }
+
+.sign-up{
+  height: 500px;
+  margin-left: 0.5em;
+}
+
+.sign-up .email{
+  box-shadow: 0 5px 5px #bdbcbb;
+}
 }
