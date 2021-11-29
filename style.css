@@ -285,15 +285,11 @@ footer {
   padding: 0;
 }
 
-footer p {
-  padding-left: 10%;
-}
-
 .prize-info {
   line-height: 1.5;
   padding-left: 10%;
   margin: 0;
-  width: 25vh;
+  width: 40vh;
 }
 .button-frame-foot {
   width: 135px;
@@ -302,16 +298,16 @@ footer p {
   border: 3px solid #ffff;
   top: -10px;
   left: -10px;
-  margin-left: 40px;
+  margin-left: 20%;
 }
 
 .button-frame-foot .orange-button {
   font-family: "Sora";
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   color: #f8f7f4;
   height: 40px;
-  width: 135px;
+  width: 180px;
   position: absolute;
   background-color: #ff7517;
   margin: 7px;
@@ -624,5 +620,11 @@ input {
     font-size: 32px;
     font-weight: 500;
     margin-top: 0;
+  }
+  .prize-info {
+    line-height: 1.5;
+    padding-left: 10%;
+    margin: 0;
+    width: 25vh;
   }
 }
