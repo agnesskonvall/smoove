@@ -9,7 +9,6 @@
   font-display: swap;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -31,7 +30,7 @@ p {
   font-weight: 400;
 }
 
-.bold{
+.bold {
   font-weight: 700;
 }
 
@@ -40,17 +39,17 @@ p {
 }
 
 .white-font {
- color: #F8F7F4; 
+  color: #f8f7f4;
 }
 
-.tiny-font{
-  font-size:14px;
+.tiny-font {
+  font-size: 14px;
 }
 
 a {
   font-family: "Sora", sans-serif;
   font-size: 16px;
-  color: #F8F7F4;
+  color: #f8f7f4;
   text-decoration: none;
 }
 
@@ -68,7 +67,7 @@ a {
   font-family: "Sora";
   font-weight: 600;
   font-size: 18px;
-  color: #F8F7F4;
+  color: #f8f7f4;
   height: 60px;
   width: 170px;
   position: absolute;
@@ -77,7 +76,6 @@ a {
   border: none;
   cursor: pointer;
 }
-
 
 /* hero styling */
 
@@ -103,7 +101,6 @@ a {
   grid-row: 41/60;
 }
 
-
 .hero-specs {
   display: flex;
   background-color: transparent;
@@ -121,7 +118,6 @@ a {
   height: 100px;
   margin-bottom: 2%; /* (100-32*3)/2 */
 }
-
 
 .specs-heading {
   font-family: "Radwave Demo";
@@ -177,7 +173,6 @@ a {
 }
 /* end of hero styling */
 
-
 .spec-one img {
   height: 100%;
 }
@@ -198,7 +193,6 @@ a {
   width: 100%;
   height: 356px;
 }
-
 
 .quote-mark {
   position: absolute;
@@ -240,14 +234,14 @@ a {
 }
 .driving-info {
   font-family: "Radwave Demo";
-  color: #F8F7F4;
+  color: #f8f7f4;
   font-weight: 800;
   font-size: 36px;
   width: 40%;
   left: 35px;
 }
 .info-text {
-  color: #F8F7F4;
+  color: #f8f7f4;
   width: 40%;
   left: 700px;
   padding: 20px;
@@ -258,13 +252,14 @@ a {
   font-size: 25px;
 }
 
-
 /* footer styling */
 
 footer {
   background-color: #00171f;
   padding-left: 8%;
   line-height: 2.5;
+  align-items: column;
+  justify-content: column;
 }
 
 .foot-title {
@@ -273,23 +268,20 @@ footer {
   margin: 0;
 }
 .foot-space {
-  display: flex;
-  align-items: row;
+  align-items: column;
+  justify-content: column;
   justify-content: space-between;
-  padding-top: 3%;
-  padding-left: 5%;
-  padding-right: 10%;
-  color: #F8F7F4;
-  padding-bottom: 5%;
+  color: #f8f7f4;
 }
 .foot-section {
   padding: 0;
 }
 
 .foot-info {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 500;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .prize-info {
@@ -312,7 +304,7 @@ footer {
   font-family: "Sora";
   font-weight: 600;
   font-size: 18px;
-  color: #F8F7F4;
+  color: #f8f7f4;
   height: 40px;
   width: 135px;
   position: absolute;
@@ -432,195 +424,200 @@ video {
 
 /* bike exterior color picker */
 
-.button-exterior-black{
+.button-exterior-black {
   background-color: #363434;
   border-style: none;
   width: 50px;
   height: 50px;
   margin: 10px 10px 10px 10px;
-  cursor:pointer;
+  cursor: pointer;
   vertical-align: middle;
 }
 
-.button-exterior-white{
-  background-color: #FBFAF9;
+.button-exterior-white {
+  background-color: #fbfaf9;
   border-style: none;
   width: 50px;
   height: 50px;
   margin: 10px 10px 10px 10px;
-  cursor:pointer;
+  cursor: pointer;
   vertical-align: middle;
 }
 
-.button-exterior-orange{
-  background-color: #FF7517;
+.button-exterior-orange {
+  background-color: #ff7517;
   border-style: none;
   width: 50px;
   height: 50px;
   margin: 10px 10px 10px 10px;
-  cursor:pointer;
+  cursor: pointer;
   vertical-align: middle;
 }
 
-
-.bike-color .bike-color-picker{
+.bike-color .bike-color-picker {
   min-width: 200px;
   display: block;
   height: 102px;
   line-height: 102px;
-  color: #FBFAF9;
+  color: #fbfaf9;
 }
 
-.bike-color img{
+.bike-color img {
   max-width: 100%;
   max-height: 100%;
 }
 
 /*end bike exterior color picker */
 
-
 /* bike interior color picker */
 
-.button-interior-black{
+.button-interior-black {
   background-color: #363434;
   border-style: none;
   width: 50px;
   height: 50px;
   margin: 10px 10px 10px 10px;
-  cursor:pointer;
+  cursor: pointer;
   vertical-align: middle;
 }
 
-.button-interior-white{
-  background-color: #FBFAF9;
+.button-interior-white {
+  background-color: #fbfaf9;
   border-style: none;
   width: 50px;
   height: 50px;
   margin: 10px 10px 10px 10px;
-  cursor:pointer;
+  cursor: pointer;
   vertical-align: middle;
 }
 
 .button-interior-orange {
-  background-color: #FF7517;
+  background-color: #ff7517;
   border-style: none;
   width: 50px;
   height: 50px;
   margin: 10px 10px 10px 10px;
-  cursor:pointer;
+  cursor: pointer;
   vertical-align: middle;
 }
 
-
-.interior-color .bike-color-picker{
+.interior-color .bike-color-picker {
   min-width: 200px;
   display: block;
   height: 102px;
   line-height: 102px;
-  color: #FBFAF9;
-
+  color: #fbfaf9;
 }
 
-.interior-color img{
+.interior-color img {
   max-width: 100%;
   max-height: 100%;
-
 }
 
 /*end bike interior color picker */
 
-
-
-.sign-up h2{
-font-family: Radwave Demo;
-font-size: 25px;
-font-weight: 400;
-line-height: 30px;
+.sign-up h2 {
+  font-family: Radwave Demo;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
-.sign-up p{
+.sign-up p {
   font-size: 16px;
   font-weight: 400;
   line-height: 23px;
-  }
+}
 
-  .sign-up-pitch{
-    padding-left: 1em;
-    max-width: 90vw;
-    padding-right: 1em;
-    word-wrap: break-word;
-  }
+.sign-up-pitch {
+  padding-left: 1em;
+  max-width: 90vw;
+  padding-right: 1em;
+  word-wrap: break-word;
+}
 
-  .sign-up form{
-    text-align: center;
-  }
+.sign-up form {
+  text-align: center;
+}
 
-.sign-up button{
+.sign-up button {
   width: 325px;
-  color: #F8F7F4;
-  background-color: #FF7517;
+  color: #f8f7f4;
+  background-color: #ff7517;
   height: 50px;
   border: none;
-  font-style: 'Sora';
+  font-style: "Sora";
   font-weight: 600;
   font-size: 18px;
 }
 
-.sign-up .email{
+.sign-up .email {
   font-size: 18px;
-width: 302px;
-height: 50px;
-margin-bottom: 15px;
-border-style: none;
+  width: 302px;
+  height: 50px;
+  margin-bottom: 15px;
+  border-style: none;
 }
 
-input{
-  font-style: 'Sora';
+input {
+  font-style: "Sora";
   color: #c9cdcd;
   padding-left: 20px;
 }
 
-
 @media screen and (min-width: 769px) {
-
   .bike-color-picker span {
     margin-left: 1em;
     font-size: 24px;
   }
 
-  .sign-up{
+  .sign-up {
     height: 630px;
     margin-right: 15em;
     margin-left: 3em;
   }
 
-  .box-shadow{
-    height:50px;
+  .box-shadow {
+    height: 50px;
     width: 622px;
     box-shadow: 0 5px 5px #bdbcbb;
   }
 
-  .sign-up h2{
+  .sign-up h2 {
     font-size: 44px;
     line-height: 46px;
   }
 
-  .sign-up p{
-  font-size: 18px;
+  .sign-up p {
+    font-size: 18px;
   }
 
-  .sign-up h3{
+  .sign-up h3 {
     font-size: 25px;
   }
 
-.sign-up button{
-  width: 180px;
-  box-shadow: none;
-}
+  .sign-up button {
+    width: 180px;
+    box-shadow: none;
+  }
 
-.sign-up .email {
-  width: 420px;
-  box-shadow: none;
-}
-
+  .sign-up .email {
+    width: 420px;
+    box-shadow: none;
+  }
+  .foot-space {
+    display: flex;
+    align-items: row;
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 10%;
+    color: #f8f7f4;
+    padding-bottom: 5%;
+  }
+  .foot-info {
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 0;
+  }
 }
