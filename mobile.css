@@ -21,12 +21,12 @@
     }
   
     .hero-header {
-      grid-column: 4/43;
+      grid-column: 4/89;
       grid-row: 55/70;
     }
   
     .hero-text {
-      grid-column: 4/43;
+      grid-column: 4/89;
       grid-row: 67/89;
     }
   
@@ -39,7 +39,7 @@
     }
   
     .hero-specs {
-      grid-column: 1/55;
+      grid-column: 1/89;
       grid-row: 45/65;
     }
   
