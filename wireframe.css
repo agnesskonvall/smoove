@@ -8,6 +8,8 @@ body {
   display: grid;
   min-height: 0;
   min-width: 0;
+  width: 100vw;
+  height: 100vh;
   grid-template-areas:
     "a a a a a a a a a a a a"
     "b b b b b b b b b b b b"
