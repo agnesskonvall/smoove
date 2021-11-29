@@ -275,6 +275,7 @@ footer {
 }
 .foot-section {
   padding: 0;
+  padding-left: 3%;
 }
 
 .foot-info {
@@ -282,6 +283,10 @@ footer {
   font-weight: 500;
   margin: 0;
   padding: 0;
+}
+
+footer p {
+  padding-left: 10%;
 }
 
 .prize-info {
