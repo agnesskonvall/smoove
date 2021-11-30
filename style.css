@@ -88,11 +88,12 @@ a {
 .hero {
   background: url(images/hero.png) no-repeat;
   z-index: 0;
+  background-size:100% auto;
 }
 
 .hero-header {
   grid-column: 60/89;
-  grid-row: 31/36;
+  grid-row: 31/40;
   letter-spacing: 3px;
 }
 
@@ -106,8 +107,8 @@ a {
   background-color: transparent;
   width: 100%;
   height: 100%;
-  grid-column: 1/90;
-  grid-row: 70/90;
+  grid-column: 1/89;
+  grid-row: 73/89;
 }
 
 .spec-container {
@@ -339,8 +340,8 @@ footer:after {
   z-index: 9;
   height: 50px;
   width: 50px;
-  grid-column: 84/90;
-  grid-row: 73/90;
+  grid-column: 84/89;
+  grid-row: 73/89;
   position: relative;
   z-index: -1;
 }
