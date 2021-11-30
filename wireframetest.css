@@ -7,7 +7,7 @@ body{
 .wrapper{
     display: grid;
     height: 100vh;
-    width: 100vw;
+    width: 100wh;
     grid-gap: 10px;
     grid-template-areas:
     "1 1 1 1 1 1 1 1 1 1 1 1"
@@ -26,6 +26,7 @@ body{
     "l l l l l l l l l l l l"
     "n n n n n n n n n n n n"
     "o o o o o o o o o o o o"
+    "p p p p p p p p p p p p"
 }
 
 header{
@@ -33,6 +34,9 @@ header{
 }
 .hero{
   grid-area: a;
+  background-color: cornflowerblue;
+  height: 80vh;
+  max-height: 1440px;
 }
 
 .spec-one {
@@ -97,9 +101,14 @@ background-color:powderblue;
     height: 70vh;
 }
 
+.info-text-two{
+    grid-area: o;
+    background-color: orange;
+    height: 20vh;
+}
 
 .foot-space{
-    grid-area: o;
+    grid-area: p;
 }
 
 @media screen and (min-width:768px){
@@ -118,6 +127,7 @@ background-color:powderblue;
     "j j j j j j k k k k k k"
     "l l l l l l l m m m m m"
     "n n n n n n n n n n n n"
-    "o o o o o o o o o o o o";
+    "o o o o o o o o o o o o"
+    "p p p p p p p p p p p p";
    }
 }
