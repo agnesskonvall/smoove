@@ -37,7 +37,7 @@ header ul a:hover {
 .logo{
   float: left;
   position: absolute;
-  z-index: 4;
+  z-index: 1;
   padding-top: 25px;
   padding-left: 8px;
 }

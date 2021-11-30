@@ -16,8 +16,9 @@
     padding-left: 90px;
   }
     .hero {
-      background: url(images/hero-mobile.png) no-repeat;
+      background: url(images/hero-mobile.jpg) no-repeat;
       z-index: 0;
+      background-size: 100vw;
     }
 
     
