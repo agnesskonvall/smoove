@@ -19,6 +19,8 @@
       background: url(images/hero-mobile.png) no-repeat;
       z-index: 0;
     }
+
+    
   
     .hero-header {
       grid-column: 4/89;
