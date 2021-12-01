@@ -498,12 +498,14 @@ video {
 }
 
 .bike-color img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100vw;
+  height: auto;
 }
 
 /*end bike exterior color picker */
-
+.bike-color-picker{
+  background-color: #00171f;
+}
 /* bike interior color picker */
 
 .button-interior-black {
@@ -545,8 +547,8 @@ video {
 }
 
 .interior-color img {
-  max-width: 100%;
-  max-height: 100%;
+    width: 100vw;
+    height: auto;
 }
 
 /*end bike interior color picker */
@@ -569,8 +571,11 @@ video {
 .sign-up-pitch {
   grid-column: 1/1;
   word-wrap: break-word;
-  grid-column-start:1;
-  grid-column-end: 1;
+  width: 866px;
+}
+
+.sign-up-text{
+  margin-right: 300px;
 }
 
 .sign-up h3 {
@@ -578,31 +583,17 @@ video {
 }
 
 .sign-up form {
-  text-align: center;
-}
-
-.sign-up button {
-  width: 325px;
-  color: #f8f7f4;
-  background-color: #ff7517;
-  height: 50px;
-  border: none;
-  font-style: "Sora";
-  font-weight: 600;
-  font-size: 18px;
+margin-left: 30px;
 }
 
 .sign-up .email {
   font-size: 18px;
-  width: 302px;
+  width: 429px;
   height: 50px;
   margin-bottom: 15px;
-  border-style: none;
-}
-
-.sign-up .image {
-  grid-column-start:2;
-  grid-column-end: 2;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
 }
 
 input {
@@ -611,23 +602,30 @@ input {
   padding-left: 20px;
 }
 
+.sign-up .button-frame {
+  position: absolute;
+  margin-left: 520px;
+  top: 379px;
+}
+
 
 @media screen and (min-width: 769px) {
+
+  .bike-color img {
+    width: 100%;
+    height: auto;
+  }
+
+  .interior-color img {
+    width: 100%;
+    height: auto;
+  }
+
   .bike-color-picker span {
     margin-left: 1em;
     font-size: 24px;
   }
 
-  .sign-up {
-    height: 630px;
-  }
-
-  .box-shadow {
-    height: 50px;
-    width: 622px;
-    box-shadow: 0 5px 5px #bdbcbb;
-    margin-left: 30px;
-  }
 
   .sign-up h2 {
     font-size: 44px;
@@ -647,10 +645,6 @@ input {
     box-shadow: none;
   }
 
-  .sign-up .email {
-    width: 420px;
-    box-shadow: none;
-  }
 
 .merch{
   position: relative;
@@ -659,7 +653,6 @@ input {
 .merch picture{
   position: absolute;
   z-index: -1;
-
 }
   .smoove-collection{
     grid-column: 1/1;
@@ -686,11 +679,18 @@ input {
   margin-bottom: 25px;
   }
   
-  footer{
-    padding-left: 15px;
+  .sign-up-flex{
+    position: relative;
+    height: 630px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
   }
 
 
+  footer{
+    padding-left: 15px;
+  }
 
   .foot-space {
     display: flex;

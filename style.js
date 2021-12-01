@@ -13,81 +13,41 @@ const orangeInt = document.querySelector('.button-interior-orange');
 blackExt.addEventListener('click', () => {
 
     bikeExtColor.alt = "Photo of the Smoove bike exterior in black";
-
-    if (window.innerWidth > 768) {
-        bikeExtColor.src = "images/color-black.jpg";
-     }
-     else {
-        bikeExtColor.src = "images/exterior_black_mobile.jpg";
-     }
+    bikeExtColor.src = "images/color-black.jpg";
 });
 
 
 whiteExt.addEventListener('click', () => {
 
     bikeExtColor.alt = "Photo of the Smoove bike exterior in white";
-
-    if (window.innerWidth > 768) {
-        bikeExtColor.src = "images/color-white.jpg";
-    }
-    else {
-        bikeExtColor.src = "images/exterior_white_mobile.jpg";
-    }
-
-});
+    bikeExtColor.src = "images/color-white.jpg";
+    });
 
 orangeExt.addEventListener('click', () => {
 
     bikeExtColor.alt = "Photo of the Smoove bike exterior in orange";
-
-    if (window.innerWidth > 768) {
-        bikeExtColor.src = "images/color-orange.jpg";
-    }
-    else {
-        bikeExtColor.src = "images/exterior_orange_mobile.jpg";
-    } 
-});
+    bikeExtColor.src = "images/color-orange.jpg";
+  });
 
 
 
 blackInt.addEventListener('click', () => {
 
     bikeIntColor.alt = "Photo of the Smoove bike interior in black";
-
-    if (window.innerWidth > 768) {
-        bikeIntColor.src = "images/interior-black.jpg";
-    }
-    else {
-        bikeIntColor.src = "images/interior-black-mobile.jpg";
-
-    }
+    bikeIntColor.src = "images/interior-black.jpg";
 });
 
 
 whiteInt.addEventListener('click', () => {
 
     bikeIntColor.alt = "Photo of the Smoove bike interior in white";
-
-    if (window.innerWidth > 768) {
-        bikeIntColor.src = "images/interior-white.jpg";
-
-    }
-    else {
-        bikeIntColor.src = "images/interior-white-mobile.jpg";
-
-    }
+    bikeIntColor.src = "images/interior-white.jpg";
 });
 
 orangeInt.addEventListener('click', () => {
 
     bikeIntColor.alt = "Photo of the Smoove bike interior in orange";
-
-    if (window.innerWidth > 768) {
-        bikeIntColor.src = "images/interior-orange.jpg";
-    }
-    else {
-        bikeIntColor.src = "images/interior-orange-mobile.jpg";
-    }
+    bikeIntColor.src = "images/interior-orange.jpg";
 });
 
 

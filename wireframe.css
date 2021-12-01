@@ -47,13 +47,11 @@ body {
   grid-area: c;
   position: relative;
   z-index: -1;
-
 }
 .spec-three {
   grid-area: d;
   position: relative;
   z-index: -1;
-
 }
 .info-text-one {
   grid-area: f;
@@ -80,7 +78,6 @@ body {
   grid-area: i;
   position: relative;
   z-index: -1;
-
 }
 
 .info-text-two{
@@ -93,19 +90,19 @@ body {
 
 .spec-picker-one {
   grid-area: k;
-  background-color: #00171f;
-
+  background: rgb(251,250,249);
+  background: linear-gradient(180deg, rgba(251,250,249,1) 0%, rgba(251,250,249,1) 86%, rgba(0,23,31,1) 87%, rgba(0,23,31,1) 100%);
 }
 
 .spec-picker-two {
   grid-area: l;
-  background-color: #00171f;
+  background: rgb(251,250,249);
+background: linear-gradient(180deg, rgba(251,250,249,1) 0%, rgba(251,250,249,1) 86%, rgba(0,23,31,1) 87%, rgba(0,23,31,1) 100%);
 }
 
 .sign-up {
   grid-area: n;
-  display: grid;
-  grid-auto-columns: 866px 574px;
+  height: 630px;
 }
 
 .merch {
@@ -145,4 +142,16 @@ footer {
     grid-area: o;
     height: 819px;
     }
+
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .wrapper {
+    grid-auto-columns: 85px;
   }
+
+.merch img{
+  width: 100vw;
+}
+
+}
