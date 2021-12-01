@@ -47,11 +47,13 @@ body {
   grid-area: c;
   position: relative;
   z-index: -1;
+
 }
 .spec-three {
   grid-area: d;
   position: relative;
   z-index: -1;
+
 }
 .info-text-one {
   grid-area: f;
