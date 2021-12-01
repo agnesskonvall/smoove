@@ -96,13 +96,13 @@ header{
 .spec-picker-one {
   grid-area: k;
   background: rgb(251,250,249);
-  background: linear-gradient(180deg, rgba(251,250,249,1) 0%, rgba(251,250,249,1) 86%, rgba(0,23,31,1) 87%, rgba(0,23,31,1) 100%);
+  background: linear-gradient(180deg, rgba(251,250,249,1) 0%, rgba(251,250,249,1) 65%, rgba(0,23,31,1) 66%, rgba(0,23,31,1) 100%);
 }
 
 .spec-picker-two {
   grid-area: l;
   background: rgb(251,250,249);
-background: linear-gradient(180deg, rgba(251,250,249,1) 0%, rgba(251,250,249,1) 86%, rgba(0,23,31,1) 87%, rgba(0,23,31,1) 100%);
+  background: linear-gradient(180deg, rgba(251,250,249,1) 0%, rgba(251,250,249,1) 65%, rgba(0,23,31,1) 66%, rgba(0,23,31,1) 100%);
 }
 
 .sign-up {

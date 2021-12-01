@@ -67,6 +67,20 @@ h3 {
     line-height: 2em;  
 }
 
+.spec-one h2, .spec-two h2, .spec-three h2{
+  font-family: "Radwave Demo";
+  font-size: 34px;
+  top: 10px;
+  left: 10px;
+  padding-left: 18px;
+}
+
+.spec-one p, .spec-two p, .spec-three p {
+  top: 2.6em;
+  left: 10px;
+  font-size: 20px;
+  padding-left: 18px;
+}
 
 .spec-one img{
   width: 100vw;
@@ -305,6 +319,8 @@ footer{
   margin-top: 0;
   margin-bottom: 25px;
 }
+
+
 
 @media screen and (min-width:545px) and (max-width:768px){
 

@@ -90,8 +90,17 @@ a {
   border: none;
   cursor: pointer;
 }
-button:active{
+.orange-button:active{
 transform: translate(-10px, -10px);
+}
+.orange-button:active{
+transform: translate(-10px, -10px);
+}
+.orange-button:hover{
+  color:#00171f;
+}
+.green-button:hover{
+  color:#f8f7f4;
 }
 
 /* hero styling */
@@ -143,7 +152,7 @@ transform: translate(-10px, -10px);
   margin-bottom: 2%; /* (100-32*3)/2 */
 }
 
-.specs-heading {
+.spec-one h2, .spec-two h2, .spec-three h2{
   font-family: "Radwave Demo";
   font-size: 38px;
   top: 20px;
@@ -152,7 +161,7 @@ transform: translate(-10px, -10px);
   padding-left: 18px;
 }
 
-.spec-info {
+.spec-one p, .spec-two p, .spec-three p {
   top: 2.8em;
   left: 10px;
   font-size: 25px;
