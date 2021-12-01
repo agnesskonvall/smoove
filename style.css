@@ -77,6 +77,20 @@ a {
   cursor: pointer;
 }
 
+.green-button {
+  font-family: "Sora";
+  font-weight: 600;
+  font-size: 18px;
+  color: #00171F;
+  height: 60px;
+  width: 170px;
+  position: absolute;
+  background-color: #65DA8C;
+  margin: 7px;
+  border: none;
+  cursor: pointer;
+}
+
 /* hero styling */
 
 @property --num {
@@ -92,7 +106,7 @@ a {
 }
 @media screen and (max-height: 900px) {
 .hero {
-  background: url(images/Hero-900h.jpg) no-repeat;
+  background: url(images/hero-900h.jpg) no-repeat;
   z-index: 0;
 }
 }
@@ -294,6 +308,7 @@ footer:after {
   justify-content: column;
   justify-content: space-between;
   color: #f8f7f4;
+  position: relative;
 }
 .foot-section {
   padding: 0;
@@ -320,27 +335,18 @@ footer:after {
   width: 40vh;
 }
 .button-frame-foot {
-  width: 135px;
-  height: 40px;
+  width: 165px;
+  height: 55px;
   position: relative;
-  border: 3px solid #ffff;
+  border: 3px solid #F3F1F1;
   top: -10px;
   left: -10px;
-  margin-left: 20%;
+  cursor: pointer;
+
 }
 
-.button-frame-foot .orange-button {
-  font-family: "Sora";
-  font-weight: 500;
-  font-size: 18px;
-  color: #f8f7f4;
-  height: 40px;
-  width: 180px;
-  position: absolute;
-  background-color: #ff7517;
-  margin: 7px;
-  border: none;
-}
+
+
 /* enf of foot styling  */
 
 /* bouncy arrows */
@@ -645,6 +651,47 @@ input {
     width: 420px;
     box-shadow: none;
   }
+
+.merch{
+  position: relative;
+}
+
+.merch picture{
+  position: absolute;
+  z-index: -1;
+
+}
+  .smoove-collection{
+    grid-column: 1/1;
+    grid-row: 4/4;
+    margin-left: 100px;
+    width: 500px;
+    z-index: 1;
+  }
+  .smoove-collection h3{
+    font-family: 'Radwave Demo';
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+
+  .smoove-collection p{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .smoove-collection .button-frame{
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  }
+  
+  footer{
+    padding-left: 15px;
+  }
+
+
+
   .foot-space {
     display: flex;
     align-items: row;

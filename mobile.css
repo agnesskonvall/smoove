@@ -4,6 +4,12 @@
     max-width: 100%;
     overflow-x: hidden;
 }
+
+h3 {
+  font-family: 'Radwave Demo';
+  font-size: 25px;
+}
+
 .menu h2{
   font-size: 20px;
   margin: 5px;
@@ -21,7 +27,6 @@
       background-size: 100vw;
     }
 
-    
   
     .hero-header {
       grid-column: 4/89;
@@ -47,8 +52,8 @@
     }
   
     .iconify {
-      grid-column: 66/86;
-      grid-row: 85/90;
+      grid-column: 75/86;
+      grid-row: 83/85;
     }
 .speed{
     font-size: 1em;
@@ -60,6 +65,17 @@
 .seconds{
     font-size: 24px;
     line-height: 2em;  
+}
+
+
+.spec-one img{
+  width: 100vw;
+}
+.spec-two img{
+  width: 100vw;
+}
+.spec-three img{
+  width: 100vw;
 }
 
 .info-text-two{
@@ -158,11 +174,11 @@ font-size: 20px;
   }
 
   .card-one {
-height: 550px;
+height: 100%;
   }
   
   .card-two {
-    height: 550px;
+    height: 100%;
   }
 
   .card-one img{
@@ -204,5 +220,33 @@ height: 550px;
 
 .sign-up .email{
   box-shadow: 0 5px 5px #bdbcbb;
+}
+
+.prize-info{
+  padding: 0;
+}
+
+.merch img{
+width: 100vw;
+  grid-column: 1/1;
+  grid-row: 1/1;
+
+}
+
+.smoove-collection{
+  grid-column: 1/3;
+  grid-row: 2/4;
+  margin-left: 25px;
+  width: 300px;
+
+}
+
+.smoove-collection .button-frame{
+float: right;
+margin-top: 10px;
+}
+
+footer{
+  padding-left: 15px;
 }
 }
