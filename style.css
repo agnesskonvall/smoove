@@ -549,6 +549,15 @@ video {
 
 /*end bike interior color picker */
 
+.sign-up-flex {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.sign-up img {
+  width: 100%;
+}
+
 .sign-up h2 {
   font-family: "Radwave Demo";
   font-size: 25px;
@@ -600,8 +609,8 @@ input {
 
 .sign-up .button-frame {
   position: absolute;
-  margin-left: 520px;
-  top: 379px;
+  top: 740px;
+  margin-left: 50px;
 }
 
 @media screen and (min-width: 769px) {
