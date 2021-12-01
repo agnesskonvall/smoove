@@ -344,6 +344,7 @@ footer:after {
   top: -10px;
   left: -10px;
   cursor: pointer;
+  margin-left: 40px;
 }
 
 /* enf of foot styling  */
@@ -746,5 +747,11 @@ video {
     color: #65da8c;
     font-size: 100px;
     margin: 0;
+  }
+  .sign-up .button-frame {
+    position: absolute;
+    top: 380px;
+    margin-left: 50px;
+    left: 460px;
   }
 }
