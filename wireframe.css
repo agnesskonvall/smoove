@@ -5,44 +5,7 @@ body {
   background-color: #FBFAF9;
 }
 
-  .wrapper {
-    max-width: 1440px;
-    position: relative;
-    margin: 0 auto;
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(480px, 1440px));
-  }
 
-
-
-  .hero{
-    display: grid;
-    grid-template-columns: repeat(89, 1fr);
-    grid-template-rows: repeat(89, 1fr);
-    height: 100vh;
-    max-height: 1024px;
-    color: #00171f;
-  }
-
-  .hero picture {
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-    height: auto;
-  }
-  
-
-.spec-one{
-
-}
-
-
-
-
-
-
-  /*
 
 .wrapper {
   display: grid;
