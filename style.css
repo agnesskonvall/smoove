@@ -100,16 +100,10 @@ a {
 }
 
 .hero {
-  background: url(images/hero.jpg) no-repeat;
   z-index: 0;
   
 }
-@media screen and (max-height: 900px) {
-.hero {
-  background: url(images/hero-900h.jpg) no-repeat;
-  z-index: 0;
-}
-}
+
 
 .hero-header {
   grid-column: 60/89;
