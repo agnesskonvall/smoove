@@ -42,6 +42,7 @@ header ul a:hover {
   padding-left: 8px;
 }
 .menu {
+  position: fixed;
   clear: both;
   object-position: right top;
   visibility: hidden;
@@ -49,8 +50,8 @@ header ul a:hover {
   transition-duration: 0.5s;
   float: right;
   text-align: left;
+  z-index: 9998;
 }
-
 
 
 .menu-margin-top {
@@ -67,7 +68,7 @@ header ul a:hover {
   position: relative;
   float: right;
   cursor: pointer;
-  z-index: 3;
+  z-index: 9999;
 }
 
 .nav-icon {

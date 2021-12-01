@@ -30,7 +30,9 @@ body {
     "p p p p p p p p p p p p"
     "q q q q q q q q q q q q";
 }
-
+header{
+  position: absolute;
+}
 .hero {
   grid-area: a;
   height: 100vh;
@@ -43,44 +45,44 @@ body {
 .spec-one {
   grid-area: b;
   position: relative;
-  z-index: -1;
+  z-index: 0;
   max-width: 768px;
 }
 .spec-two {
   grid-area: c;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 .spec-three {
   grid-area: d;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 .info-text-one {
   grid-area: f;
   background-color: #00171f;
   height: 399px;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 .enviro-splash {
   grid-area: g;
   background: rgb(0,23,31);
   background: linear-gradient(180deg, rgba(0,23,31,1) 0%, rgba(0,23,31,1) 41%, rgba(251,250,249,1) 54%, rgba(251,250,249,1) 100%);
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 
 .card-one {
   grid-area: h;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 
 .card-two {
   grid-area: i;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 
 .info-text-two{
@@ -106,20 +108,20 @@ background: linear-gradient(180deg, rgba(251,250,249,1) 0%, rgba(251,250,249,1) 
 .sign-up {
   grid-area: n;
   height: 630px;
+  z-index: 0;
 }
 
 .merch {
   grid-area: o;
-  height: 669px;
+  min-height: 620px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);      
+  grid-template-rows: repeat(2, 0.6fr);      
 }
 
 footer {
   grid-area: q;
-  position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 
 @media screen and (min-width: 769px) {

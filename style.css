@@ -90,6 +90,9 @@ a {
   border: none;
   cursor: pointer;
 }
+button:active{
+transform: translate(-10px, -10px);
+}
 
 /* hero styling */
 
@@ -354,7 +357,7 @@ footer:after {
   grid-column: 84/90;
   grid-row: 73/90;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 
 .bounce {
@@ -549,71 +552,71 @@ video {
 
 /*end bike interior color picker */
 
-.sign-up-flex {
-  width: 100%;
-  position: relative;
-  display: flex;
-}
-.sign-up img {
-  width: 100%;
-}
 
-.sign-up h2 {
-  font-family: "Radwave Demo";
-  font-size: 25px;
-  font-weight: 400;
-  line-height: 30px;
-  margin-left: 30px;
-}
 
-.sign-up p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 23px;
-  margin-left: 30px;
-}
-
-.sign-up-pitch {
-  grid-column: 1/1;
-  word-wrap: break-word;
-  width: 866px;
-}
-
-.sign-up-text {
-  margin-right: 300px;
-}
-
-.sign-up h3 {
-  margin-left: 30px;
-}
-
-.sign-up form {
-  margin-left: 30px;
-}
-
-.sign-up .email {
-  font-size: 18px;
-  width: 429px;
-  height: 50px;
-  margin-bottom: 15px;
-  border-style: solid;
-  border-color: black;
-  border-width: 3px;
-}
-
-input {
-  font-style: "Sora";
-  color: #c9cdcd;
-  padding-left: 20px;
-}
-
-.sign-up .button-frame {
-  position: absolute;
-  top: 740px;
-  margin-left: 50px;
-}
 
 @media screen and (min-width: 769px) {
+
+  
+    .sign-up-flex {
+      width: 100%;
+      position: relative;
+      display: flex;
+      z-index: 0;
+    }
+    .sign-up img {
+      width: 100%;
+    }
+    
+    .sign-up h2 {
+      font-family: "Radwave Demo";
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 30px;
+      margin-left: 30px;
+    }
+    
+    .sign-up p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 23px;
+      margin-left: 30px;
+    }
+    
+    .sign-up-pitch {
+      grid-column: 1/1;
+      word-wrap: break-word;
+      width: 866px;
+    }
+    
+    .sign-up-text {
+      margin-right: 300px;
+    }
+    
+    .sign-up h3 {
+      margin-left: 30px;
+    }
+    
+    .sign-up form {
+      margin-left: 30px;
+    }
+    
+    .sign-up .email {
+      font-size: 18px;
+      width: 429px;
+      height: 50px;
+      margin-bottom: 15px;
+      border-style: solid;
+      border-color: black;
+      border-width: 3px;
+    }
+    
+    input {
+      font-style: "Sora";
+      color: #c9cdcd;
+      padding-left: 20px;
+    }
+    
   .bike-color img {
     width: 100%;
     height: auto;
@@ -647,17 +650,22 @@ input {
     box-shadow: none;
   }
 
-  .merch {
-    position: relative;
+  .sign-up .button-frame {
+    position: absolute;
+    top: 375px;
+    margin-left: 520px;
   }
 
-  .merch picture {
-    position: absolute;
-    z-index: -1;
-  }
+.merch img{
+  position: absolute;
+  grid-column: 3/3;
+  grid-row: 2/2;
+}
+
   .smoove-collection {
+    position: relative;
     grid-column: 1/1;
-    grid-row: 4/4;
+    grid-row: 3/3;
     margin-left: 100px;
     width: 500px;
     z-index: 1;
@@ -702,6 +710,8 @@ input {
     color: #f8f7f4;
     padding-bottom: 5%;
   }
+
+    
   .foot-info {
     font-size: 32px;
     font-weight: 500;
