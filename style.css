@@ -737,4 +737,10 @@ input {
     font-size: 100px;
     margin: 0;
   }
+  .sign-up .button-frame {
+    position: absolute;
+    top: 380px;
+    margin-left: 50px;
+    left: 450px;
+  }
 }
