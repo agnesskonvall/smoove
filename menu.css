@@ -1,158 +1,153 @@
 header a {
-    color:black
+	color: black
 }
 
 header {
-    z-index: 2;
-    font-weight:200;
-    grid-column:84/86;
-    grid-row: 1/5;
-  } 
-  
-  header ul { 
-    background-color: #00171F;
-    margin: 0;  
-    padding: 0 0 0 5em; 
-    position: fixed;  
-    top: 0; 
-    right: 0; 
-    list-style: none; 
-    overflow: hidden;
-    font-weight:500;
-    width: 100%;
-    height: 100%
+	z-index: 2;
+	font-weight: 200;
+	grid-column: 84/86;
+	grid-row: 1/5;
+}
+
+header ul {
+	background-color: #00171F;
+	margin: 0;
+	padding: 0 0 0 5em;
+	position: fixed;
+	top: 0;
+	right: 0;
+	list-style: none;
+	overflow: hidden;
+	font-weight: 500;
+	width: 100%;
+	height: 100%
 }
 
 header ul a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #FFFFFF;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #FFFFFF;
 }
 
 header ul a:hover {
-  color: #65DA8C;
+	color: #65DA8C;
 }
 
-.logo{
-  float: left;
-  position: absolute;
-  z-index: 1;
-  padding-top: 25px;
-  padding-left: 8px;
+.logo {
+	float: left;
+	position: absolute;
+	z-index: 1;
+	padding-top: 25px;
+	padding-left: 8px;
 }
+
 .menu {
-  position: fixed;
-  clear: both;
-  object-position: right top;
-  visibility: hidden;
-  transform: translateX(100%);
-  transition-duration: 0.5s;
-  float: right;
-  text-align: left;
-  z-index: 9998;
+	position: fixed;
+	clear: both;
+	object-position: right top;
+	visibility: hidden;
+	transform: translateX(100%);
+	transition-duration: 0.5s;
+	float: right;
+	text-align: left;
+	z-index: 9998;
 }
-
 
 .menu-margin-top {
-  padding-top: 9em;
-  }
+	padding-top: 9em;
+}
 
 .menu-margin-bottom {
-    padding-bottom: 9em;
-  }
+	padding-bottom: 9em;
+}
 
-
-.menu-icon{
-  padding: 5px 20px;
-  position: relative;
-  float: right;
-  cursor: pointer;
-  z-index: 9999;
+.menu-icon {
+	padding: 5px 20px;
+	position: relative;
+	float: right;
+	cursor: pointer;
+	z-index: 9999;
 }
 
 .nav-icon {
-  background: #00171F;
-  display: block;
-  height: 4px;
-  width: 35px;
-  position: fixed;
-  margin: 20px;
-  right: 1px;
-
+	background: #00171F;
+	display: block;
+	height: 4px;
+	width: 35px;
+	position: fixed;
+	margin: 20px;
+	right: 1px;
 }
 
-.nav-icon:before{
-  background: #00171F;
-  content:"";
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 13px;
+.nav-icon:before {
+	background: #00171F;
+	content: "";
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 13px;
 }
 
-.nav-icon:after{
-  background: #00171F;
-  content:"";
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: -13px;
-  }
-
-.menu-button{
-  visibility: hidden;
-  }
-
-.menu-button-padding{
-    padding: 20px 20px 20px 30px;
-    cursor: pointer;
+.nav-icon:after {
+	background: #00171F;
+	content: "";
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: -13px;
 }
 
-.menu-button:checked ~ .menu {
-  min-height: 100%;
-  visibility: visible;
-  transform: translateX(10%);
-  transition-duration: 0.5s;
-  }
+.menu-button {
+	visibility: hidden;
+}
 
-.menu-button:checked ~ .menu-icon .nav-icon {
-  background: transparent;
-  } 
+.menu-button-padding {
+	padding: 20px 20px 20px 30px;
+	cursor: pointer;
+}
 
-.menu-button:checked ~ .menu-icon .nav-icon:before {
-  transform: rotate(-45deg);
-  top: 0;
-  background:#65DA8C;
-  }
+.menu-button:checked~.menu {
+	min-height: 100%;
+	visibility: visible;
+	transform: translateX(10%);
+	transition-duration: 0.5s;
+}
 
-.menu-button:checked ~ .menu-icon .nav-icon:after{
- transform: rotate(45deg);
-  top: 0;
-  background: #65DA8C;
-  }
+.menu-button:checked~.menu-icon .nav-icon {
+	background: transparent;
+}
 
-  .hidden-mobile{
-    display:none;
-    }
+.menu-button:checked~.menu-icon .nav-icon:before {
+	transform: rotate(-45deg);
+	top: 0;
+	background: #65DA8C;
+}
 
-  @media screen and (min-width: 780px) {
+.menu-button:checked~.menu-icon .nav-icon:after {
+	transform: rotate(45deg);
+	top: 0;
+	background: #65DA8C;
+}
 
-  .menu-button:checked ~ .menu {
-      min-height: 100%;
-      visibility: visible;
-      transform: translateX(60%);
-      transition-duration: 0.5s;
-      }
-      .hidden-mobile{
-      color: white;
-      display:contents;
-      }
+.hidden-mobile {
+	display: none;
+}
 
-      .no-linebreak{
-        display: inline-block;
-      }
-
-  }
+@media screen and (min-width: 780px) {
+	.menu-button:checked~.menu {
+		min-height: 100%;
+		visibility: visible;
+		transform: translateX(60%);
+		transition-duration: 0.5s;
+	}
+	.hidden-mobile {
+		color: white;
+		display: contents;
+	}
+	.no-linebreak {
+		display: inline-block;
+	}
+}
