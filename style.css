@@ -116,32 +116,6 @@ transform: translate(-10px, -10px);
   z-index: 0;
 }
 
-@media screen and (max-height: 900px) {
-  .hero {
-    background: url(images/Hero-900h.jpg) no-repeat;
-    z-index: 0;
-  }
-}
-
-.hero-header {
-  grid-column: 60/89;
-  grid-row: 31/36;
-  letter-spacing: 3px;
-}
-
-.hero-text {
-  grid-column: 68/89;
-  grid-row: 41/60;
-}
-
-.hero-specs {
-  display: flex;
-  background-color: transparent;
-  width: 100%;
-  height: 100%;
-  grid-column: 1/90;
-  grid-row: 70/90;
-}
 
 .spec-container {
   text-align: center;
@@ -563,11 +537,30 @@ video {
 /*end bike interior color picker */
 
 
+.speed{
 
+  line-height: 140px;
+}
+
+.seconds{
+  line-height: 2em;  
+}
 
 @media screen and (min-width: 769px) {
 
+  .specs {
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+  }
   
+  .spec-container .arrows {
+  float: right;
+  margin-top: 70px;
+  }
+
     .sign-up-flex {
       width: 100%;
       position: relative;

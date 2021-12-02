@@ -35,8 +35,7 @@ header{
 .hero{
   grid-area: a;
   background-color: cornflowerblue;
-  height: 80vh;
-  max-height: 1440px;
+  height: 823px;
 }
 
 .spec-one {

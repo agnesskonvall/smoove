@@ -13,6 +13,7 @@ body {
   min-width: 0;
   grid-template-areas:
     "a a a a a a a a a a a a"
+    "u u u u u u u u u u u u"
     "b b b b b b b b b b b b"
     "c c c c c c c c c c c c"
     "d d d d d d d d d d d d"
@@ -35,11 +36,14 @@ header{
 }
 .hero {
   grid-area: a;
-  height: 100vh;
-  max-height: 1024px;
+  height: 826px;
   display: grid;
   grid-template-columns: repeat(89, 1fr);
   grid-template-rows: repeat(89, 1fr);
+}
+
+.specs{
+  grid-area: u;
 }
 
 .spec-one {
@@ -131,6 +135,7 @@ footer {
     grid-auto-columns: 120px;
     grid-template-areas:
       "a a a a a a a a a a a a"
+      "u u u u u u u u u u u u"
       "b b b b c c c c d d d d"
       "e e e e e e e e e e e e"
       "f f f f f f f f f f f f"
@@ -140,14 +145,11 @@ footer {
       "k k k k k k l l l l l l"
       "n n n n n n n n n n n n"
       "o o o o o o o o o o o o"
-      "p p p p p p p p p p p p"
       "q q q q q q q q q q q q";
   }
   .merch {
-    grid-area: o;
     height: 819px;
     }
-
 
 }
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
