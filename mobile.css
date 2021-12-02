@@ -251,12 +251,12 @@ height: 100%;
   border-color: black;
   background-color:#F3F1F1;
   height: 50px;
-  margin-left: 30px;
   width: 300px;
 }
 
 .sign-up-text{
   margin-left: 30px;
+  padding-top: 50px;
 }
 
 .sign-up h2{
@@ -282,7 +282,7 @@ height: 100%;
 
 .sign-up .button-frame{
   margin-top: 30px;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 .prize-info{
@@ -391,5 +391,9 @@ footer{
 
   .sign-up .email {
     border-style: none;
+}
+
+.sign-up-text  h2{
+  margin-top: 90px;
 }
 }

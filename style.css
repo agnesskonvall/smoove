@@ -587,9 +587,6 @@ video {
     width: 866px;
   }
 
-  .sign-up-text {
-    margin-right: 300px;
-  }
 
   .sign-up h3 {
     margin-left: 30px;
@@ -818,7 +815,7 @@ video {
   }
   .sign-up .button-frame {
     position: absolute;
-    top: 380px;
+    top: 415px;
     margin-left: 50px;
     left: 460px;
   }
