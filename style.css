@@ -90,17 +90,20 @@ a {
   border: none;
   cursor: pointer;
 }
-.orange-button:active{
-transform: translate(-10px, -10px);
+.orange-button:active {
+  transform: translate(-10px, -10px);
 }
-.orange-button:active{
-transform: translate(-10px, -10px);
+.orange-button:active {
+  transform: translate(-10px, -10px);
 }
-.orange-button:hover{
-  color:#00171f;
+.orange-button:hover {
+  color: #00171f;
 }
-.green-button:hover{
-  color:#f8f7f4;
+.green-button:hover {
+  color: #f8f7f4;
+}
+.green-button:active {
+  transform: translate(-10px, -10px);
 }
 
 /* hero styling */
@@ -126,7 +129,9 @@ transform: translate(-10px, -10px);
   margin-bottom: 2%; /* (100-32*3)/2 */
 }
 
-.spec-one h2, .spec-two h2, .spec-three h2{
+.spec-one h2,
+.spec-two h2,
+.spec-three h2 {
   font-family: "Radwave Demo";
   font-size: 38px;
   top: 20px;
@@ -135,7 +140,9 @@ transform: translate(-10px, -10px);
   padding-left: 18px;
 }
 
-.spec-one p, .spec-two p, .spec-three p {
+.spec-one p,
+.spec-two p,
+.spec-three p {
   top: 2.8em;
   left: 10px;
   font-size: 25px;
@@ -247,13 +254,17 @@ transform: translate(-10px, -10px);
   font-weight: 800;
   font-size: 36px;
   width: 40%;
-  left: 35px;
+  left: 15px;
+  top: 50px;
+  position: absolute;
 }
 .info-text {
   color: #f8f7f4;
   width: 40%;
-  left: 700px;
+  left: 15px;
   padding: 20px;
+  position: absolute;
+  top: 160px;
 }
 
 .info-text-two span {
@@ -434,8 +445,6 @@ video {
 }
 /* end video */
 
-
-
 /* bike exterior color picker */
 
 .button-exterior-black {
@@ -536,6 +545,16 @@ video {
 
 /*end bike interior color picker */
 
+@media screen and (min-width: 769px) {
+  .sign-up-flex {
+    width: 100%;
+    position: relative;
+    display: flex;
+    z-index: 0;
+  }
+  .sign-up img {
+    width: 100%;
+  }
 
 .speed{
 
@@ -545,8 +564,54 @@ video {
 .seconds{
   line-height: 2em;  
 }
+  .sign-up h2 {
+    font-family: "Radwave Demo";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 30px;
+  }
 
-@media screen and (min-width: 769px) {
+  .sign-up p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 30px;
+  }
+
+  .sign-up-pitch {
+    grid-column: 1/1;
+    word-wrap: break-word;
+    width: 866px;
+  }
+
+  .sign-up-text {
+    margin-right: 300px;
+  }
+
+  .sign-up h3 {
+    margin-left: 30px;
+  }
+
+  .sign-up form {
+    margin-left: 30px;
+  }
+
+  .sign-up .email {
+    font-size: 18px;
+    width: 429px;
+    height: 50px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+  }
+
+  input {
+    font-style: "Sora";
+    color: #c9cdcd;
+    padding-left: 20px;
+  }
 
   .specs {
     display: flex;
@@ -659,11 +724,11 @@ video {
     margin-left: 520px;
   }
 
-.merch img{
-  position: absolute;
-  grid-column: 3/3;
-  grid-row: 2/2;
-}
+  .merch img {
+    position: absolute;
+    grid-column: 3/3;
+    grid-row: 2/2;
+  }
 
   .smoove-collection {
     position: relative;
@@ -714,7 +779,6 @@ video {
     padding-bottom: 5%;
   }
 
-    
   .foot-info {
     font-size: 32px;
     font-weight: 500;
@@ -755,5 +819,25 @@ video {
     top: 380px;
     margin-left: 50px;
     left: 460px;
+  }
+  .driving-info {
+    font-family: "Radwave Demo";
+    color: #f8f7f4;
+    font-weight: 800;
+    font-size: 36px;
+    width: 40%;
+    left: 65px;
+    top: 100px;
+    position: absolute;
+  }
+  .info-text {
+    color: #f8f7f4;
+    width: 40%;
+    right: 100px;
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    font-size: larger;
+    left: 700px;
   }
 }
