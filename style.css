@@ -625,7 +625,7 @@ video {
 	}
 	.sign-up .email {
 		font-size: 18px;
-		width: 429px;
+		width: 360px;
 		height: 50px;
 		margin-bottom: 15px;
 		border-style: none;
@@ -676,7 +676,8 @@ video {
 		width: 866px;
 	}
 	.sign-up-text {
-		margin-right: 300px;
+		margin-right: 200px;
+    margin-left: 60px;
 	}
 	.sign-up h3 {
 		margin-left: 30px;
@@ -684,15 +685,7 @@ video {
 	.sign-up form {
 		margin-left: 30px;
 	}
-	.sign-up .email {
-		font-size: 18px;
-		width: 429px;
-		height: 50px;
-		margin-bottom: 15px;
-		border-style: solid;
-		border-color: black;
-		border-width: 3px;
-	}
+
 	input {
 		font-style: "Sora";
 		color: #c9cdcd;
@@ -729,6 +722,7 @@ video {
 		top: 375px;
 		margin-left: 520px;
 	}
+
 	.merch img {
 		position: absolute;
 		grid-column: 3/3;
